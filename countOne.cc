@@ -16,6 +16,7 @@ unsigned long countOne(unsigned long N)
 		n++;		
 	}
 	return l;
+	unsigned int j = 0;
 }
 
 int main(int argc, char ** argv)

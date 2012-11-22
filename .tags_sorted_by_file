@@ -1,0 +1,1071 @@
+Circle	8.4.5mem_fun.cpp	/^class Circle : public Shape$/;"	c	file:
+Rect	8.4.5mem_fun.cpp	/^class Rect : public Shape$/;"	c	file:
+Shape	8.4.5mem_fun.cpp	/^class Shape $/;"	c	file:
+Square	8.4.5mem_fun.cpp	/^class Square : public Shape$/;"	c	file:
+display	8.4.5mem_fun.cpp	/^  virtual void display() {$/;"	f	class:Circle
+display	8.4.5mem_fun.cpp	/^  virtual void display() {$/;"	f	class:Rect
+display	8.4.5mem_fun.cpp	/^  virtual void display() {$/;"	f	class:Square
+main	8.4.5mem_fun.cpp	/^int main()$/;"	f
+Int	8functor-adapater.cpp	/^  explicit Int(int i) : m_i(i) {}$/;"	f	class:Int
+Int	8functor-adapater.cpp	/^class Int$/;"	c	file:
+m_i	8functor-adapater.cpp	/^  int m_i;$/;"	m	class:Int	file:
+main	8functor-adapater.cpp	/^int main()$/;"	f
+print	8functor-adapater.cpp	/^void print(int i)$/;"	f
+print1	8functor-adapater.cpp	/^  void print1() const {$/;"	f	class:Int
+main	8iteartor-adapter.cpp	/^int main()$/;"	f
+Ascend	BSTree.h	/^	void Ascend() { InOutput(); }$/;"	f	class:BSTree
+BSTree	BSTree.h	/^class BSTree : public BinaryTree<E> {$/;"	c
+Delete	BSTree.h	/^BSTree<E, K>& BSTree:Delete(const K& k, E& e)$/;"	f
+Insert	BSTree.h	/^BSTree<E, K>& BSTree<E, K>::Insert(const E& e)$/;"	f	class:BSTree
+Search	BSTree.h	/^bool BSTree<E, K>::Search(const K& k, E& e) const$/;"	f	class:BSTree
+FindPath	MyFindPath.cc	/^bool FindPath(Position start, Position finish, int& PathLen, Position*& path)$/;"	f
+Position	MyFindPath.cc	/^	Position()$/;"	f	struct:Position
+Position	MyFindPath.cc	/^struct Position {$/;"	s	file:
+col	MyFindPath.cc	/^	int row, col;$/;"	m	struct:Position	file:
+grid	MyFindPath.cc	/^static int grid[9][9];$/;"	v	file:
+initGrid	MyFindPath.cc	/^void initGrid()$/;"	f
+main	MyFindPath.cc	/^int main()$/;"	f
+operator !=	MyFindPath.cc	/^	bool operator != (const Position& pos) {$/;"	f	struct:Position
+operator +	MyFindPath.cc	/^	friend Position operator +(const Position& pos1, const Position& pos2) {$/;"	f	struct:Position
+operator +=	MyFindPath.cc	/^	Position& operator += (const Position& pos) {$/;"	f	struct:Position
+operator =	MyFindPath.cc	/^	Position& operator =(const Position& pos) {$/;"	f	struct:Position
+operator ==	MyFindPath.cc	/^	bool operator == (const Position& pos) {$/;"	f	struct:Position
+row	MyFindPath.cc	/^	int row, col;$/;"	m	struct:Position	file:
+main	MyInsertSort.cc	/^int main()$/;"	f
+myInsertSort	MyInsertSort.cc	/^void myInsertSort(std::vector<int>& v)$/;"	f
+printv	MyInsertSort.cc	/^void printv(const std::vector<int>& v)$/;"	f
+Add	MyLinkedQueue.cc	/^LinkedQueue<T>& LinkedQueue<T>::Add(const T& x)$/;"	f	class:LinkedQueue
+Delete	MyLinkedQueue.cc	/^LinkedQueue<T>& LinkedQueue<T>::Delete(T& x)$/;"	f	class:LinkedQueue
+First	MyLinkedQueue.cc	/^T LinkedQueue<T>::First() const$/;"	f	class:LinkedQueue
+IsEmpty	MyLinkedQueue.cc	/^	bool IsEmpty() const {$/;"	f	class:LinkedQueue
+IsFull	MyLinkedQueue.cc	/^bool LinkedQueue<T>::IsFull() const$/;"	f	class:LinkedQueue
+Last	MyLinkedQueue.cc	/^T LinkedQueue<T>::Last() const$/;"	f	class:LinkedQueue
+LinkedQueue	MyLinkedQueue.cc	/^	LinkedQueue() {$/;"	f	class:LinkedQueue
+LinkedQueue	MyLinkedQueue.cc	/^class LinkedQueue {$/;"	c	file:
+front	MyLinkedQueue.cc	/^	Node<T>* front;$/;"	m	class:LinkedQueue	file:
+rear	MyLinkedQueue.cc	/^	Node<T>* rear;$/;"	m	class:LinkedQueue	file:
+~LinkedQueue	MyLinkedQueue.cc	/^LinkedQueue<T>::~LinkedQueue()$/;"	f	class:LinkedQueue
+Add	MyLinkedStack.h	/^	LinkedStack<T>& Add(const T& x)$/;"	f	class:LinkedStack
+Delete	MyLinkedStack.h	/^	LinkedStack<T>& Delete(T& x)$/;"	f	class:LinkedStack
+IsEmpty	MyLinkedStack.h	/^	bool IsEmpty() const { return top ==0; }$/;"	f	class:LinkedStack
+IsEmpty	MyLinkedStack.h	/^	bool IsEmpty() const {$/;"	f	class:LinkedStack
+IsFull	MyLinkedStack.h	/^	bool IsFull() const {$/;"	f	class:LinkedStack
+IsFull	MyLinkedStack.h	/^bool LinkedStack<T>::IsFull() const$/;"	f	class:LinkedStack
+LinkedStack	MyLinkedStack.h	/^	LinkedStack() { top = 0; }$/;"	f	class:LinkedStack
+LinkedStack	MyLinkedStack.h	/^class LinkedStack : private Chain<T> {$/;"	c
+LinkedStack	MyLinkedStack.h	/^class LinkedStack {$/;"	c
+Node	MyLinkedStack.h	/^class Node {$/;"	c
+Top	MyLinkedStack.h	/^	T Top() const {$/;"	f	class:LinkedStack
+data	MyLinkedStack.h	/^	T data;$/;"	m	class:Node
+link	MyLinkedStack.h	/^	Node<T>* link;$/;"	m	class:Node
+top	MyLinkedStack.h	/^	Node<T>* top;$/;"	m	class:LinkedStack
+MyMinK	MyMinK.cc	/^int MyMinK(std::vector<int>& v, int k)$/;"	f
+exchange	MyMinK.cc	/^void exchange(int& a, int& b)$/;"	f
+main	MyMinK.cc	/^int main(int argc, char** argv)$/;"	f
+minK	MyMinK.cc	/^int minK(std::vector<int>& v, int l, int r, int k)$/;"	f
+minK_iter	MyMinK.cc	/^int minK_iter(std::vector<int>& v, int l, int r, int k)$/;"	f
+partition	MyMinK.cc	/^int partition(std::vector<int>& v, int l, int r)$/;"	f
+printv	MyMinK.cc	/^void printv(const std::vector<int>& v)$/;"	f
+printv	MyMinK.cc	/^void printv(const std::vector<int>& v, int l, int r)$/;"	f
+exchange	MyQuickSort.cc	/^int exchange(int& a, int& b)$/;"	f
+main	MyQuickSort.cc	/^int main()$/;"	f
+myQuickSort1	MyQuickSort.cc	/^void myQuickSort1(std::vector<int>& v, int l, int h)$/;"	f
+myQuickSort2	MyQuickSort.cc	/^void myQuickSort2(std::vector<int>& v, int l, int h)$/;"	f
+partition1	MyQuickSort.cc	/^int partition1(std::vector<int>& v, int l, int h)$/;"	f
+partition2	MyQuickSort.cc	/^int partition2(std::vector<int>& v, int l, int h)$/;"	f
+printv	MyQuickSort.cc	/^void printv(const std::vector<int>& v)$/;"	f
+printv	MyQuickSort.cc	/^void printv(const std::vector<int>& v, int l, int h)$/;"	f
+Build_Max_Heap	MySortAlgoImpl.cc	/^void Build_Max_Heap(std::vector<int>& v)$/;"	f
+Max_Heapify	MySortAlgoImpl.cc	/^void Max_Heapify(std::vector<int>& v, int i, int upbound)$/;"	f
+MergeSort	MySortAlgoImpl.cc	/^void MergeSort(std::vector<int>& v, std::vector<int>& vtmp, int l, int r)$/;"	f
+MyCountSort	MySortAlgoImpl.cc	/^void MyCountSort(std::vector<int>& v)$/;"	f
+MyHeapSort	MySortAlgoImpl.cc	/^void MyHeapSort(std::vector<int>& v)$/;"	f
+MyInsertSort	MySortAlgoImpl.cc	/^void MyInsertSort(std::vector<int>& v)$/;"	f
+MyMergeSort	MySortAlgoImpl.cc	/^void MyMergeSort(std::vector<int>& v)$/;"	f
+MyQuickSort	MySortAlgoImpl.cc	/^void MyQuickSort(std::vector<int>& v)$/;"	f
+NUM	MySortAlgoImpl.cc	/^int NUM = 0;$/;"	v
+SortAlgoFunc	MySortAlgoImpl.cc	/^typedef void (*SortAlgoFunc)(std::vector<int>& v);$/;"	t	file:
+exchange	MySortAlgoImpl.cc	/^int exchange(int& a, int& b)$/;"	f
+left	MySortAlgoImpl.cc	/^int left(int i)$/;"	f
+main	MySortAlgoImpl.cc	/^int main(int argc, char** argv)$/;"	f
+merge	MySortAlgoImpl.cc	/^void merge(std::vector<int>& v, std::vector<int>& vtmp, int l, int m, int r)$/;"	f
+myQuickSort1	MySortAlgoImpl.cc	/^void myQuickSort1(std::vector<int>& v, int l, int h)$/;"	f
+myQuickSort2	MySortAlgoImpl.cc	/^void myQuickSort2(std::vector<int>& v, int l, int h)$/;"	f
+parent	MySortAlgoImpl.cc	/^int parent(int i)$/;"	f
+partition1	MySortAlgoImpl.cc	/^int partition1(std::vector<int>& v, int l, int h)$/;"	f
+partition2	MySortAlgoImpl.cc	/^int partition2(std::vector<int>& v, int l, int h)$/;"	f
+printv	MySortAlgoImpl.cc	/^void printv(const std::vector<int>& v)$/;"	f
+printv	MySortAlgoImpl.cc	/^void printv(const std::vector<int>& v, int l, int h)$/;"	f
+right	MySortAlgoImpl.cc	/^int right(int i)$/;"	f
+Add	MyStack.h	/^Stack<T>& Stack<T>::Add(const T& x)$/;"	f	class:Stack
+Delete	MyStack.h	/^Stack<T>& Stack<T>::Delete(T& x)$/;"	f	class:Stack
+IsEmpty	MyStack.h	/^	bool IsEmpty() const { return top == -1; }$/;"	f	class:Stack
+IsFull	MyStack.h	/^	bool IsFull() const { return top == MaxTop; }$/;"	f	class:Stack
+MaxTop	MyStack.h	/^	int MaxTop;$/;"	m	class:Stack
+Stack	MyStack.h	/^Stack<T>::Stack(int MaxStackSize)$/;"	f	class:Stack
+Stack	MyStack.h	/^class Stack  {$/;"	c
+Top	MyStack.h	/^T Stack<T>::Top() const$/;"	f	class:Stack
+stack	MyStack.h	/^	T* stack;$/;"	m	class:Stack
+top	MyStack.h	/^	int top;$/;"	m	class:Stack
+~Stack	MyStack.h	/^	~Stack() { delete [] stack; }$/;"	f	class:Stack
+Run	MyWorker.h	/^	 virtual void* Run() {$/;"	f	class:Worker
+WORKER_H_	MyWorker.h	2;"	d
+Worker	MyWorker.h	/^	Worker(T& obj,  void* (T::*work)()) $/;"	f	class:Worker
+Worker	MyWorker.h	/^	Worker(T& obj, void (T::*work)())$/;"	f	class:Worker
+Worker	MyWorker.h	/^	Worker(T& obj, void (T::*work)(A), A arg)$/;"	f	class:Worker
+Worker	MyWorker.h	/^	Worker(T& obj, void* (T::*work)(A), A arg) $/;"	f	class:Worker
+Worker	MyWorker.h	/^class Worker : public Thread$/;"	c
+d_arg	MyWorker.h	/^	A d_arg;$/;"	m	class:Worker
+d_obj	MyWorker.h	/^	T& d_obj;$/;"	m	class:Worker
+d_type	MyWorker.h	/^	int d_type;$/;"	m	class:Worker
+d_work	MyWorker.h	/^	} d_work;$/;"	m	class:Worker	typeref:union:Worker::__anon4
+work0	MyWorker.h	/^		void* (T::*work0)();$/;"	m	union:Worker::__anon4
+work1	MyWorker.h	/^		void* (T::*work1)(A);$/;"	m	union:Worker::__anon4
+work2	MyWorker.h	/^		void (T::*work2)();$/;"	m	union:Worker::__anon4
+work3	MyWorker.h	/^		void (T::*work3)(A);$/;"	m	union:Worker::__anon4
+adjacent_find	algorithm_template.cc	/^ForwardIterator adjacent_find(ForwardIterator first, ForwardIterator last)$/;"	f
+count	algorithm_template.cc	/^ptrdiff_t count(InputIterator first, InputIterator last, const T& t)$/;"	f
+count_if	algorithm_template.cc	/^ptrdiff_t count_if(InputIterator first, InputIterator last, Predicate pred)$/;"	f
+find	algorithm_template.cc	/^InputIterator find(InputIterator first, InputIterator last, const T& t)$/;"	f
+find_end	algorithm_template.cc	/^ForwardIterator1 find_end(ForwardIterator1 first1, ForwardIterator1 last1, $/;"	f
+find_first_of	algorithm_template.cc	/^ForwardIterator1 find_first_of(FowardIterator1 first1, ForwardIterator2 last1,$/;"	f
+find_if	algorithm_template.cc	/^InputIterator find_if(InputIterator first, InputIterator last, Predicate f)$/;"	f
+for_each	algorithm_template.cc	/^Function for_each(InputIterator first, InputIterator last, Function f)$/;"	f
+mismatch	algorithm_template.cc	/^mismatch(InputIterator1 first1, InputIterator1 last1,$/;"	f
+__ANY_H_	any.h	2;"	d
+any	any.h	/^	any()$/;"	f	class:any
+any	any.h	/^	any(const ValueType& value)$/;"	f	class:any
+any	any.h	/^	any(const any& other)$/;"	f	class:any
+any	any.h	/^class any $/;"	c
+any_cast	any.h	/^ValueType any_cast(any& operand)$/;"	f
+any_cast	any.h	/^ValueType* any_cast(any* operand)$/;"	f
+bad_any_cast	any.h	/^class bad_any_cast : public std::bad_cast$/;"	c
+clone	any.h	/^		virtual placeholder* clone() const$/;"	f	class:any::holder
+content	any.h	/^	placeholder* content;$/;"	m	class:any
+empty	any.h	/^	bool empty() const$/;"	f	class:any
+held	any.h	/^		ValueType held;$/;"	m	class:any::holder
+holder	any.h	/^		holder(const ValueType& value)$/;"	f	class:any::holder
+holder	any.h	/^	class holder : public placeholder$/;"	c	class:any
+operator =	any.h	/^	any& operator=(any rhs)$/;"	f	class:any
+operator =	any.h	/^	any& operator=(const ValueType& rhs)$/;"	f	class:any
+placeholder	any.h	/^	class placeholder$/;"	c	class:any
+swap	any.h	/^	any& swap(any& rhs)$/;"	f	class:any
+type	any.h	/^		virtual const std::type_info& type() const$/;"	f	class:any::holder
+type	any.h	/^	const std::type_info& type() const$/;"	f	class:any
+what	any.h	/^	virtual const char* what() const throw()$/;"	f	class:bad_any_cast
+~any	any.h	/^	~any()$/;"	f	class:any
+~placeholder	any.h	/^		virtual ~placeholder()$/;"	f	class:any::placeholder
+array	array.h	/^class array {$/;"	c
+assign	array.h	/^	void assign(const T&)$/;"	f	class:array
+at	array.h	/^	const_reference at(size_type) const$/;"	f	class:array
+at	array.h	/^	reference at(size_type)$/;"	f	class:array
+back	array.h	/^	const_reference back() const$/;"	f	class:array
+back	array.h	/^	reference back()$/;"	f	class:array
+begin	array.h	/^	const_iterator begin() const { return elems; }$/;"	f	class:array
+begin	array.h	/^	iterator begin() { return elems; }$/;"	f	class:array
+c_array	array.h	/^	T* c_array()$/;"	f	class:array
+const_iterator	array.h	/^	typedef const T*								const_iterator;$/;"	t	class:array
+const_reference	array.h	/^	typedef const T&								const_reference;$/;"	t	class:array
+const_reverse_iterator	array.h	/^	typedef std::reverse_iterator<const_iterator> 	const_reverse_iterator;$/;"	t	class:array
+data	array.h	/^	T* data() $/;"	f	class:array
+data	array.h	/^	const T* data() const$/;"	f	class:array
+diffrerence_type	array.h	/^	typedef std::ptrdiff_t							diffrerence_type;$/;"	t	class:array
+elems	array.h	/^	T elems[N];$/;"	m	class:array
+empty	array.h	/^	bool empty()	 { return false; }$/;"	f	class:array
+end	array.h	/^	const_iterator end() const { return elems+N; }$/;"	f	class:array
+end	array.h	/^	iterator end() { return elems+N; }$/;"	f	class:array
+fill	array.h	/^	void fill(const T& value)$/;"	f	class:array
+front	array.h	/^	const_reference front() const$/;"	f	class:array
+front	array.h	/^	reference front()$/;"	f	class:array
+iterator	array.h	/^	typedef T*										iterator;$/;"	t	class:array
+max_size	array.h	/^	size_type max_size() { return N; }$/;"	f	class:array
+operator =	array.h	/^	template <typename U> array& operator=(const array<U,N>& rhs)$/;"	f	class:array
+operator []	array.h	/^	const_reference operator[](size_type) const$/;"	f	class:array
+operator []	array.h	/^	reference operator[](size_type) $/;"	f	class:array
+rangecheck	array.h	/^	static void rangecheck(size_typ i) $/;"	f	class:array
+rbegin	array.h	/^	const_reverse_iterator rbegin() const { return const_reverse_iterator(end()); }$/;"	f	class:array
+rbegin	array.h	/^	reverse_iterator rbegin() { return reverse_iterator(end()); }$/;"	f	class:array
+reference	array.h	/^	typedef T& 										reference;$/;"	t	class:array
+rend	array.h	/^	const_reverse_iterator rend() const { return const_reverse_iterator(begin()); }$/;"	f	class:array
+rend	array.h	/^	reverse_iterator rend() { return reverse_iterator(begin()); }$/;"	f	class:array
+reverse_iterator	array.h	/^	typedef std::reverse_iterator<iterator>			reverse_iterator;$/;"	t	class:array
+size	array.h	/^	size_type size() { return N; }$/;"	f	class:array
+size_type	array.h	/^	typedef std::size_t								size_type;$/;"	t	class:array
+static_size	array.h	/^	static const size_type static_size = N;$/;"	m	class:array
+value_type	array.h	/^	typedef T										value_type;$/;"	t	class:array
+atoi_impl	atoiImpl.c	/^int atoi_impl(char* s)$/;"	f
+main	atoiImpl.c	/^int main()$/;"	f
+Back	averageListNode.c	/^} Back;$/;"	t	typeref:struct:__anon1	file:
+Node	averageListNode.c	/^} Node;$/;"	t	typeref:struct:node	file:
+ave	averageListNode.c	/^	float ave;$/;"	m	struct:__anon1	file:
+average	averageListNode.c	/^Back* average(Node* head)$/;"	f
+data	averageListNode.c	/^	float data;$/;"	m	struct:node	file:
+main	averageListNode.c	/^int main()$/;"	f
+next	averageListNode.c	/^	struct node* next;$/;"	m	struct:node	typeref:struct:node::node	file:
+node	averageListNode.c	/^typedef struct node {$/;"	s	file:
+num	averageListNode.c	/^	int num;$/;"	m	struct:__anon1	file:
+M	clockwise_printarray.c	4;"	d	file:
+N	clockwise_printarray.c	5;"	d	file:
+clockwise_print	clockwise_printarray.c	/^void clockwise_print(int a[][N], int l, int r, int t, int b)$/;"	f
+main	clockwise_printarray.c	/^int main()$/;"	f
+COUNT_DONE	cond_var_example.cc	14;"	d	file:
+COUNT_HALT1	cond_var_example.cc	15;"	d	file:
+COUNT_HALT2	cond_var_example.cc	16;"	d	file:
+condition_cond	cond_var_example.cc	/^pthread_cond_t condition_cond = PTHREAD_COND_INITIALIZER;$/;"	v
+condition_mutex	cond_var_example.cc	/^pthread_mutex_t condition_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+count	cond_var_example.cc	/^int count = 0;$/;"	v
+count_mutex	cond_var_example.cc	/^pthread_mutex_t count_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+functionCount1	cond_var_example.cc	/^void* functionCount1(void*)$/;"	f
+functionCount2	cond_var_example.cc	/^void* functionCount2(void*)$/;"	f
+main	cond_var_example.cc	/^int main()$/;"	f
+A	constExample.cc	/^class A {$/;"	c	file:
+calc	constExample.cc	/^	void calc() const {$/;"	f	class:A
+f	constExample.cc	/^void f(const A& pa)  \/\/ can not compile$/;"	f
+i	constExample.cc	/^    mutable	int i;$/;"	m	class:A	file:
+main	constExample.cc	/^int main()$/;"	f
+print	constExample.cc	/^	void print() const {$/;"	f	class:A
+A	copyctorExample.cc	/^	A() { $/;"	f	class:A
+A	copyctorExample.cc	/^	A(const A& other) {$/;"	f	class:A
+A	copyctorExample.cc	/^class A {$/;"	c	file:
+AA	copyctorExample.cc	/^	AA() {$/;"	f	class:AA
+AA	copyctorExample.cc	/^	AA(const AA& other)$/;"	f	class:AA
+AA	copyctorExample.cc	/^class AA : public A$/;"	c	file:
+main	copyctorExample.cc	/^int main()$/;"	f
+operator =	copyctorExample.cc	/^	A& operator =(const A& other) {$/;"	f	class:A
+operator =	copyctorExample.cc	/^	AA& operator =(const AA& other) {$/;"	f	class:AA
+PERMS	copysys.c	5;"	d	file:
+error	copysys.c	/^void error(char* fmt, ...)$/;"	f
+main	copysys.c	/^int main(int argc, char* argv[])$/;"	f
+countOne	countOne.cc	/^unsigned long countOne(unsigned long N)$/;"	f
+main	countOne.cc	/^int main(int argc, char ** argv)$/;"	f
+_cpp_header_h	cpp_header.h	2;"	d
+print_c	ctest.c	/^void print_c(const char* s)$/;"	f
+_ctest_h_	ctest.h	2;"	d
+base	ctorCallVirtual.cc	/^	base()$/;"	f	class:base
+base	ctorCallVirtual.cc	/^class base {$/;"	c	file:
+call_virtual	ctorCallVirtual.cc	/^	virtual void call_virtual()   \/\/ = 0;   => ctor can not call pure virtual function$/;"	f	class:base
+call_virtual	ctorCallVirtual.cc	/^	virtual void call_virtual()$/;"	f	class:derived
+derived	ctorCallVirtual.cc	/^	derived() $/;"	f	class:derived
+derived	ctorCallVirtual.cc	/^class derived : public base  {$/;"	c	file:
+main	ctorCallVirtual.cc	/^int main()$/;"	f
+~base	ctorCallVirtual.cc	/^	virtual ~base()$/;"	f	class:base
+~derived	ctorCallVirtual.cc	/^	~derived()$/;"	f	class:derived
+ClearList	dullist.c	/^void ClearList(DuLinkList L)$/;"	f
+DestoryList	dullist.c	/^void DestoryList(DuLinkList *L)$/;"	f
+DuLinkList	dullist.c	/^} DulNode, *DuLinkList;$/;"	t	typeref:struct:DulNode	file:
+DulNode	dullist.c	/^typedef struct DulNode {$/;"	s	file:
+DulNode	dullist.c	/^} DulNode, *DuLinkList;$/;"	t	typeref:struct:DulNode	file:
+GetElem	dullist.c	/^Status GetElem(DuLinkList L, int i, ElemType* e)$/;"	f
+InitList	dullist.c	/^void InitList(DuLinkList *L)$/;"	f
+ListEmpty	dullist.c	/^Status ListEmpty(DuLinkList L)$/;"	f
+ListLength	dullist.c	/^int ListLength(DuLinkList L)$/;"	f
+data	dullist.c	/^	ElemType data;$/;"	m	struct:DulNode	file:
+next	dullist.c	/^	struct DulNode* prio, *next;$/;"	m	struct:DulNode	typeref:struct:DulNode::	file:
+prio	dullist.c	/^	struct DulNode* prio, *next;$/;"	m	struct:DulNode	typeref:struct:DulNode::DulNode	file:
+base	eventSim.cc	/^	base() { m_pfun = static_cast<pfun>(&base::doSomething); }$/;"	f	class:base
+base	eventSim.cc	/^class base {$/;"	c	file:
+derived	eventSim.cc	/^	derived() { m_pfun = static_cast<pfun>(&derived::do_other); }$/;"	f	class:derived
+derived	eventSim.cc	/^class derived : public base {$/;"	c	file:
+doSomething	eventSim.cc	/^	void doSomething(void) { }$/;"	f	class:base
+do_other	eventSim.cc	/^	void do_other() {$/;"	f	class:derived
+hello	eventSim.cc	/^	void hello(void) {$/;"	f	class:base
+m_pfun	eventSim.cc	/^	pfun m_pfun;$/;"	m	class:base	file:
+main	eventSim.cc	/^int main()$/;"	f
+pfun	eventSim.cc	/^	typedef void (base::*pfun)(void);$/;"	t	class:base	file:
+~base	eventSim.cc	/^	~base() {}$/;"	f	class:base
+A	exceptionCtor.cc	/^	A(int i) {$/;"	f	class:A
+A	exceptionCtor.cc	/^class A {$/;"	c	file:
+f	exceptionCtor.cc	/^void f()$/;"	f
+main	exceptionCtor.cc	/^int main()$/;"	f
+~A	exceptionCtor.cc	/^	~A() {$/;"	f	class:A
+func	group_oddeven.cc	/^bool func(int n)$/;"	f
+group_oddeven	group_oddeven.cc	/^void group_oddeven(std::vector<int>& a, bool (*func)(int))$/;"	f
+main	group_oddeven.cc	/^int main()$/;"	f
+main	main.c	/^int main()$/;"	f
+Align	mallocsys.c	/^typedef long Align;$/;"	t	file:
+Header	mallocsys.c	/^typedef union header Header;$/;"	t	typeref:union:header	file:
+NALLOC	mallocsys.c	45;"	d	file:
+base	mallocsys.c	/^static Header base;$/;"	v	file:
+free	mallocsys.c	/^void free(void* ap)$/;"	f
+freep	mallocsys.c	/^static Header* freep = NULL;$/;"	v	file:
+header	mallocsys.c	/^union header {$/;"	u	file:
+malloc	mallocsys.c	/^void* malloc(unsigned nbytes)$/;"	f
+morecore	mallocsys.c	/^static Header* morecore(unsigned nu)$/;"	f	file:
+ptr	mallocsys.c	/^		union header* ptr;$/;"	m	struct:header::__anon3	typeref:union:header::__anon3::header	file:
+s	mallocsys.c	/^	} s;$/;"	m	union:header	typeref:struct:header::__anon3	file:
+size	mallocsys.c	/^		unsigned size;$/;"	m	struct:header::__anon3	file:
+x	mallocsys.c	/^	Align x;$/;"	m	union:header	file:
+Tree	maxDistanceOfTree.c	/^struct Tree {$/;"	s	file:
+get_depth	maxDistanceOfTree.c	/^int get_depth(Tree* t)$/;"	f
+get_maxdistance	maxDistanceOfTree.c	/^int get_maxdistance(Tree* t)$/;"	f
+left	maxDistanceOfTree.c	/^	Tree* left;$/;"	m	struct:Tree	file:
+right	maxDistanceOfTree.c	/^	Tree* right;$/;"	m	struct:Tree	file:
+buildMaxHeap	maxHeapSort.cc	/^void buildMaxHeap(int A[], int heapsize)$/;"	f
+heapSort	maxHeapSort.cc	/^void heapSort(int A[], int heapsize)$/;"	f
+left	maxHeapSort.cc	/^int left(int i)$/;"	f
+main	maxHeapSort.cc	/^int main()$/;"	f
+maxHeapify	maxHeapSort.cc	/^void maxHeapify(int A[], int i, int heapsize)$/;"	f
+parent	maxHeapSort.cc	/^int parent(int i)$/;"	f
+print	maxHeapSort.cc	/^void print(int A[], int heapsize)$/;"	f
+right	maxHeapSort.cc	/^int right(int i)$/;"	f
+main	memory_limit_sort.cc	/^int main()$/;"	f
+main	myStrlen.c	/^int main()$/;"	f
+myStrlen	myStrlen.c	/^int myStrlen(char* s)$/;"	f
+main	openFileTest.cc	/^int main()$/;"	f
+PERMS	opensys.c	4;"	d	file:
+fopen	opensys.c	/^FILE* fopen(char* name, char* mode)$/;"	f
+Number	operatortest.cc	/^	Number(T a) $/;"	f	class:Number
+Number	operatortest.cc	/^class Number {$/;"	c	file:
+main	operatortest.cc	/^int main()$/;"	f
+operator +=	operatortest.cc	/^	friend Number& operator += (Number& A, const Number& B) {$/;"	f	class:Number
+operator <<	operatortest.cc	/^std::ostream& operator << (std::ostream& os, const Number<T>& n)$/;"	f
+operator >>	operatortest.cc	/^std::istream& operator >> (std::istream& is, Number<T>& n)$/;"	f
+val	operatortest.cc	/^	T val;$/;"	m	class:Number	file:
+value	operatortest.cc	/^	T& value() {$/;"	f	class:Number
+value	operatortest.cc	/^	const T& value() const {$/;"	f	class:Number
+~Number	operatortest.cc	/^	~Number() {}$/;"	f	class:Number
+f	overloadtest.cc	/^int f(int i)$/;"	f
+f	overloadtest.cc	/^void f(int i)$/;"	f
+main	overloadtest.cc	/^int main()$/;"	f
+ParseOptions	parseOptions.cc	/^void ParseOptions(const char* options, const char* sep, const char* seq, $/;"	f
+cvt	parseOptions.cc	/^struct cvt : public unary_function<const char*, T>$/;"	s	file:
+cvt	parseOptions.cc	/^struct cvt<double> : public unary_function<const char*, double>$/;"	s	file:
+cvt	parseOptions.cc	/^struct cvt<int> : public unary_function<const char*, int>$/;"	s	file:
+cvt	parseOptions.cc	/^struct cvt<string> : public unary_function<const char*, string>$/;"	s	file:
+main	parseOptions.cc	/^int main(int argc, char* argv[]) $/;"	f
+operator ()	parseOptions.cc	/^	double operator()(const char* s) const {  return atof(s); }$/;"	f	struct:cvt
+operator ()	parseOptions.cc	/^	int operator()(const char* s) const { return atoi(s); }$/;"	f	struct:cvt
+operator ()	parseOptions.cc	/^	string operator()(const char* s) const { return string(s); }$/;"	f	struct:cvt
+PrepareCutlines	prepareCutlines.cc	/^void Clip::PrepareCutlines()$/;"	f	class:Clip
+main	printMinSetCover.cc	/^int main()$/;"	f
+printAllElements	printMinSetCover.cc	/^void printAllElements(const std::set<int>& s)$/;"	f
+main	pthread.c	/^int main()$/;"	f
+ntid	pthread.c	/^pthread_t ntid;$/;"	v
+printids	pthread.c	/^void printids(const char* s)$/;"	f
+thr_fn	pthread.c	/^void* thr_fn(void* arg)$/;"	f
+ABS	quadknap.c	66;"	d	file:
+Caprara	quadknap.c	/^   QUADRATIC KNAPSACK PROBLEM  Alberto Caprara, David Pisinger, Polo Toth$/;"	v
+Computing	quadknap.c	/^    INFORMS Journal on Computing, 11, 125-137 (1999). $/;"	v
+DET	quadknap.c	67;"	d	file:
+EPSILON	quadknap.c	50;"	d	file:
+INFTY	quadknap.c	51;"	d	file:
+MSIZE	quadknap.c	49;"	d	file:
+Pisinger	quadknap.c	/^   QUADRATIC KNAPSACK PROBLEM  Alberto Caprara, David Pisinger, Polo Toth$/;"	v
+Problem	quadknap.c	/^    Exact solution of the Quadratic Knapsack Problem, $/;"	v
+SWAP	quadknap.c	68;"	d	file:
+b	quadknap.c	/^  struct ilist b; break item, before this item was changed $/;"	m	struct:ilist	typeref:struct:ilist::ilist	file:
+b	quadknap.c	/^  struct ilist b; current break item $/;"	m	struct:rk	typeref:struct:rk::ilist	file:
+boolean	quadknap.c	/^typedef int     boolean;$/;"	t	file:
+c	quadknap.c	/^static stype c, z, z0, ptot, wtot, heur, impr, zbrute, lagbound, inibound;$/;"	v	file:
+etype	quadknap.c	/^typedef float   etype;    efficiency type          $/;"	t	file:
+fixp	quadknap.c	/^static stype fixp, fixw;$/;"	v	file:
+fixw	quadknap.c	/^static stype fixp, fixw;$/;"	v	file:
+funcptr	quadknap.c	/^typedef int (funcptr) (const void , const void );$/;"	t	file:
+head	quadknap.c	/^  itemlist head;$/;"	m	struct:rk	file:
+heur	quadknap.c	/^static stype c, z, z0, ptot, wtot, heur, impr, zbrute, lagbound, inibound;$/;"	v	file:
+ilist	quadknap.c	/^typedef struct ilist {$/;"	s	file:
+impr	quadknap.c	/^static stype c, z, z0, ptot, wtot, heur, impr, zbrute, lagbound, inibound;$/;"	v	file:
+inibound	quadknap.c	/^static stype c, z, z0, ptot, wtot, heur, impr, zbrute, lagbound, inibound;$/;"	v	file:
+it	quadknap.c	/^  itemlist it[MSIZE];$/;"	m	struct:rk	file:
+item	quadknap.c	/^  struct ilist b; break item, before this item was changed $/;"	m	struct:ilist	file:
+itemlist	quadknap.c	/^} itemlist;$/;"	t	typeref:struct:ilist	file:
+iterations	quadknap.c	/^static long iterations;$/;"	v	file:
+itype	quadknap.c	/^typedef int     itype;    item profits and weights $/;"	t	file:
+lagbound	quadknap.c	/^static stype c, z, z0, ptot, wtot, heur, impr, zbrute, lagbound, inibound;$/;"	v	file:
+lpitem	quadknap.c	/^} lpitem;$/;"	t	typeref:struct:__anon5	file:
+maxlagr	quadknap.c	/^static long maxlagr;$/;"	v	file:
+minw	quadknap.c	/^static itype minw[MSIZE];$/;"	v	file:
+n	quadknap.c	/^static ntype n;$/;"	v	file:
+next	quadknap.c	/^  struct ilist next;$/;"	m	struct:ilist	typeref:struct:ilist::ilist	file:
+no	quadknap.c	/^  ntype  no;       the items position in a pw ordering $/;"	m	struct:ilist	file:
+ntype	quadknap.c	/^typedef int     ntype;    number of items          $/;"	t	file:
+p	quadknap.c	/^  etype p;  profit $/;"	m	struct:__anon5	file:
+p	quadknap.c	/^  itype  p;        the items profit $/;"	m	struct:ilist	file:
+p	quadknap.c	/^static itype p[MSIZE][MSIZE];$/;"	v	file:
+pover	quadknap.c	/^static itype pover[MSIZE];$/;"	v	file:
+prev	quadknap.c	/^  struct ilist prev;$/;"	m	struct:ilist	typeref:struct:ilist::ilist	file:
+problem	quadknap.c	/^    no        Size of problem, i.e. number of items.$/;"	v
+problem	quadknap.c	/^ This code solves the quadratic knapsack problem, which$/;"	v
+psumb	quadknap.c	/^  itype  psumb;    current profit sum up to break item $/;"	m	struct:rk	file:
+psumb	quadknap.c	/^  itype  psumb;    psumb before this item was changed $/;"	m	struct:ilist	file:
+ptot	quadknap.c	/^static stype c, z, z0, ptot, wtot, heur, impr, zbrute, lagbound, inibound;$/;"	v	file:
+ptype	quadknap.c	/^typedef double  ptype;    product type             $/;"	t	file:
+rk	quadknap.c	/^typedef struct rk {$/;"	s	file:
+rowk	quadknap.c	/^static rowknap rowk[MSIZE];$/;"	v	file:
+rowknap	quadknap.c	/^} rowknap;$/;"	t	typeref:struct:rk	file:
+stype	quadknap.c	/^typedef int     stype;    sum of profit or weight  $/;"	t	file:
+tail	quadknap.c	/^  itemlist tail;$/;"	m	struct:rk	file:
+w	quadknap.c	/^  itype  w;        the items weight $/;"	m	struct:ilist	file:
+w	quadknap.c	/^  itype w;  weight $/;"	m	struct:__anon5	file:
+w	quadknap.c	/^static itype w[MSIZE];$/;"	v	file:
+wsumb	quadknap.c	/^  itype  wsumb;    current weight sum up to break item $/;"	m	struct:rk	file:
+wsumb	quadknap.c	/^  itype  wsumb;    wsumb before this item was changed $/;"	m	struct:ilist	file:
+wtot	quadknap.c	/^static stype c, z, z0, ptot, wtot, heur, impr, zbrute, lagbound, inibound;$/;"	v	file:
+x	quadknap.c	/^  etype x;  pointer to solution variable $/;"	m	struct:__anon5	file:
+x	quadknap.c	/^static itype x[MSIZE];$/;"	v	file:
+xstar	quadknap.c	/^static boolean xstar[MSIZE];$/;"	v	file:
+z	quadknap.c	/^static stype c, z, z0, ptot, wtot, heur, impr, zbrute, lagbound, inibound;$/;"	v	file:
+z0	quadknap.c	/^static stype c, z, z0, ptot, wtot, heur, impr, zbrute, lagbound, inibound;$/;"	v	file:
+zbrute	quadknap.c	/^static stype c, z, z0, ptot, wtot, heur, impr, zbrute, lagbound, inibound;$/;"	v	file:
+main	readInSysCheckRep.cc	/^int main()$/;"	f
+readin	readInSysCheckRep.cc	/^bool readin(const char* filename)$/;"	f
+DIR	readdir.c	/^} DIR;$/;"	t	typeref:struct:__anon7	file:
+Dirent	readdir.c	/^} Dirent;$/;"	t	typeref:struct:__anon6	file:
+NAME_MAX	readdir.c	8;"	d	file:
+S_IFBLK	readdir.c	45;"	d	file:
+S_IFCHR	readdir.c	44;"	d	file:
+S_IFDIR	readdir.c	43;"	d	file:
+S_IFMT	readdir.c	42;"	d	file:
+S_IFREG	readdir.c	46;"	d	file:
+closedir	readdir.c	/^void closedir(DIR* dp)$/;"	f
+d	readdir.c	/^	Dirent d;$/;"	m	struct:__anon7	file:
+dirwalk	readdir.c	/^void dirwalk(char* dir, void (*fcn)(char*))$/;"	f
+fd	readdir.c	/^	int fd;$/;"	m	struct:__anon7	file:
+fsize	readdir.c	/^void fsize(char* name)$/;"	f
+ino	readdir.c	/^	long ino;$/;"	m	struct:__anon6	file:
+main	readdir.c	/^int main(int argc, char* argv[])$/;"	f
+name	readdir.c	/^	char name[NAME_MAX+1];$/;"	m	struct:__anon6	file:
+name	readdir.c	/^char* name;$/;"	v
+opendir	readdir.c	/^DIR* opendir(char* dirname)$/;"	f
+rdev	readdir.c	/^	dev_t rdev;$/;"	m	struct:stat	file:
+readdir	readdir.c	/^Dirent* readdir(DIR* dp)$/;"	f
+st_atime	readdir.c	/^	time_t st_atime;$/;"	m	struct:stat	file:
+st_ctime	readdir.c	/^	time_t st_ctime;$/;"	m	struct:stat	file:
+st_dev	readdir.c	/^	dev_t st_dev;$/;"	m	struct:stat	file:
+st_gid	readdir.c	/^	short st_gid;$/;"	m	struct:stat	file:
+st_ino	readdir.c	/^	ino_t st_ino;$/;"	m	struct:stat	file:
+st_mode	readdir.c	/^	short st_mode;$/;"	m	struct:stat	file:
+st_mtime	readdir.c	/^	time_t st_mtime;$/;"	m	struct:stat	file:
+st_nlink	readdir.c	/^	short st_nlink;$/;"	m	struct:stat	file:
+st_size	readdir.c	/^	off_t st_size;$/;"	m	struct:stat	file:
+st_uid	readdir.c	/^	short st_uid;$/;"	m	struct:stat	file:
+stat	readdir.c	/^struct stat {$/;"	s	file:
+stbuf	readdir.c	/^struct stat stbuf;$/;"	v	typeref:struct:stat
+BUFSIZ	readsys.c	5;"	d	file:
+main	readsys.c	/^int main()$/;"	f
+BTree	recipe\BTreeinOrder.cc	/^} BtNode, *BTree;$/;"	t	typeref:struct:BtNode	file:
+BtNode	recipe\BTreeinOrder.cc	/^typedef struct BtNode {$/;"	s	file:
+BtNode	recipe\BTreeinOrder.cc	/^} BtNode, *BTree;$/;"	t	typeref:struct:BtNode	file:
+ElemType	recipe\BTreeinOrder.cc	/^typedef int ElemType;$/;"	t	file:
+StNode	recipe\BTreeinOrder.cc	/^typedef struct StNode {$/;"	s	file:
+StNode	recipe\BTreeinOrder.cc	/^} StNode;$/;"	t	typeref:struct:StNode	file:
+data	recipe\BTreeinOrder.cc	/^	ElemType data;$/;"	m	struct:BtNode	file:
+elem	recipe\BTreeinOrder.cc	/^	BTree elem;$/;"	m	struct:StNode	file:
+inOrder	recipe\BTreeinOrder.cc	/^int inOrder(BTree root)$/;"	f
+lchild	recipe\BTreeinOrder.cc	/^	struct BtNode* lchild, *rchild;$/;"	m	struct:BtNode	typeref:struct:BtNode::BtNode	file:
+link	recipe\BTreeinOrder.cc	/^	struct StNode* link;$/;"	m	struct:StNode	typeref:struct:StNode::StNode	file:
+main	recipe\BTreeinOrder.cc	/^int main()$/;"	f
+rchild	recipe\BTreeinOrder.cc	/^	struct BtNode* lchild, *rchild;$/;"	m	struct:BtNode	typeref:struct:BtNode::	file:
+visit	recipe\BTreeinOrder.cc	/^void visit(StNode* v)$/;"	f
+A	recipe\CMyString.cc	/^	A() {}$/;"	f	class:A
+A	recipe\CMyString.cc	/^class A$/;"	c	file:
+CMyString	recipe\CMyString.cc	/^CMyString::CMyString(char* pData)$/;"	f	class:CMyString
+CMyString	recipe\CMyString.cc	/^CMyString::CMyString(const CMyString& str)$/;"	f	class:CMyString
+CMyString	recipe\CMyString.cc	/^class CMyString {$/;"	c	file:
+a	recipe\CMyString.cc	/^	int a;$/;"	m	class:A	file:
+m_pData	recipe\CMyString.cc	/^	char* m_pData;$/;"	m	class:CMyString	file:
+main	recipe\CMyString.cc	/^int main()$/;"	f
+operator =	recipe\CMyString.cc	/^CMyString& CMyString::operator=(const CMyString& str)$/;"	f	class:CMyString
+~A	recipe\CMyString.cc	/^	~A() {}$/;"	f	class:A
+~CMyString	recipe\CMyString.cc	/^	~CMyString() { delete [] m_pData; }$/;"	f	class:CMyString
+Tree	recipe\MyBSTree.cc	/^} Tree;$/;"	t	typeref:struct:TreeNode	file:
+TreeInit	recipe\MyBSTree.cc	/^void TreeInit(Tree** t, elemtype e)$/;"	f
+TreeInsert	recipe\MyBSTree.cc	/^bool TreeInsert(Tree* t, elemtype e)$/;"	f
+TreeNode	recipe\MyBSTree.cc	/^typedef struct TreeNode {$/;"	s	file:
+d	recipe\MyBSTree.cc	/^	elemtype d;$/;"	m	struct:TreeNode	file:
+destroyTree	recipe\MyBSTree.cc	/^void destroyTree(Tree* t)$/;"	f
+elemtype	recipe\MyBSTree.cc	/^typedef char elemtype;$/;"	t	file:
+inorder1	recipe\MyBSTree.cc	/^void inorder1(Tree* t)$/;"	f
+inorder2	recipe\MyBSTree.cc	/^void inorder2(Tree* t)$/;"	f
+inorder2_1	recipe\MyBSTree.cc	/^void inorder2_1(Tree* t)$/;"	f
+l	recipe\MyBSTree.cc	/^	TreeNode* l;$/;"	m	struct:TreeNode	file:
+main	recipe\MyBSTree.cc	/^int main()$/;"	f
+postorder1	recipe\MyBSTree.cc	/^void postorder1(Tree* t)$/;"	f
+postorder2	recipe\MyBSTree.cc	/^void postorder2(Tree* t)$/;"	f
+preorder1	recipe\MyBSTree.cc	/^void preorder1(Tree* t)$/;"	f
+preorder2	recipe\MyBSTree.cc	/^void preorder2(Tree* t)$/;"	f
+r	recipe\MyBSTree.cc	/^	TreeNode* r;$/;"	m	struct:TreeNode	file:
+visited	recipe\MyBSTree.cc	/^	bool visited;$/;"	m	struct:TreeNode	file:
+BinaryNode	recipe\MyBSTree_book.cc	/^		BinaryNode(const Comparable& theElement, BinaryNode* lt, BinaryNode* rt)$/;"	f	struct:BinarySearchTree::BinaryNode
+BinaryNode	recipe\MyBSTree_book.cc	/^	struct BinaryNode $/;"	s	class:BinarySearchTree	file:
+BinarySearchTree	recipe\MyBSTree_book.cc	/^class BinarySearchTree $/;"	c	file:
+Object	recipe\MyBSTree_book.cc	/^typedef int Object;$/;"	t	file:
+clone	recipe\MyBSTree_book.cc	/^BinaryNode* BinarySearchTree::clone(BinaryNode* t) const$/;"	f	class:BinarySearchTree
+contains	recipe\MyBSTree_book.cc	/^bool BinarySearchTree::contains(const Comparable& x) const$/;"	f	class:BinarySearchTree
+contains	recipe\MyBSTree_book.cc	/^bool BinarySearchTree::contains(const Comparable& x, BinaryNode* t) const$/;"	f	class:BinarySearchTree
+element	recipe\MyBSTree_book.cc	/^		Object element;$/;"	m	struct:BinarySearchTree::BinaryNode	file:
+findMax	recipe\MyBSTree_book.cc	/^bool BinarySearchTree::findMax(BinaryNode* t) const$/;"	f	class:BinarySearchTree
+findMin	recipe\MyBSTree_book.cc	/^bool BinarySearchTree::findMin(BinaryNode* t) const$/;"	f	class:BinarySearchTree
+insert	recipe\MyBSTree_book.cc	/^void BinarySearchTree::insert(const Comparable& x)$/;"	f	class:BinarySearchTree
+left	recipe\MyBSTree_book.cc	/^		BinaryNode* left;$/;"	m	struct:BinarySearchTree::BinaryNode	file:
+makeEmpty	recipe\MyBSTree_book.cc	/^void BinarySearchTree::makeEmpty(BinaryNode*& t)$/;"	f	class:BinarySearchTree
+operator =	recipe\MyBSTree_book.cc	/^const BinarySearchTree& BinarySearchTree::operator =(const BinarySearchTree& rhs)$/;"	f	class:BinarySearchTree
+remove	recipe\MyBSTree_book.cc	/^void BinarySearchTree::remove(const Comparable& x)$/;"	f	class:BinarySearchTree
+remove	recipe\MyBSTree_book.cc	/^void BinarySearchTree::remove(const Comparable& x, BinaryNode*& t)$/;"	f	class:BinarySearchTree
+right	recipe\MyBSTree_book.cc	/^		BinaryNode* right;$/;"	m	struct:BinarySearchTree::BinaryNode	file:
+root	recipe\MyBSTree_book.cc	/^	BinaryNode* root;$/;"	m	class:BinarySearchTree	file:
+~BinarySearchTree	recipe\MyBSTree_book.cc	/^BinarySearchTree::~BinarySearchTree()$/;"	f	class:BinarySearchTree
+Build_Max_Heap	recipe\MyHeapSort.cc	/^void Build_Max_Heap(std::vector<int>& v)$/;"	f
+HEAP_SIZE	recipe\MyHeapSort.cc	/^const int HEAP_SIZE = 13;$/;"	v
+HeapSort	recipe\MyHeapSort.cc	/^void HeapSort(std::vector<int>& v)$/;"	f
+Max_Heapify	recipe\MyHeapSort.cc	/^void Max_Heapify(std::vector<int>& v, int i, int upbound)$/;"	f
+left	recipe\MyHeapSort.cc	/^int left(int i)$/;"	f
+main	recipe\MyHeapSort.cc	/^int main(void)$/;"	f
+parent	recipe\MyHeapSort.cc	/^int parent(int i)$/;"	f
+printv	recipe\MyHeapSort.cc	/^void printv(const std::vector<int>& v)$/;"	f
+right	recipe\MyHeapSort.cc	/^int right(int i)$/;"	f
+main	recipe\MyMinMax.cc	/^int main()$/;"	f
+maxmin	recipe\MyMinMax.cc	/^void maxmin(const std::vector<int>& v, int& max, int& min)$/;"	f
+printv	recipe\MyMinMax.cc	/^void printv(const std::vector<int>& v)$/;"	f
+Add	recipe\MyQueue.cc	/^Queue<T>& Queue<T>::Add(const T& x) $/;"	f	class:Queue
+Delete	recipe\MyQueue.cc	/^Queue<T>& Queue<T>::Delete(T& x)$/;"	f	class:Queue
+First	recipe\MyQueue.cc	/^T Queue<T>::First() const$/;"	f	class:Queue
+IsEmpty	recipe\MyQueue.cc	/^	bool IsEmpty() const {$/;"	f	class:Queue
+IsFull	recipe\MyQueue.cc	/^	bool IsFull() const {$/;"	f	class:Queue
+Last	recipe\MyQueue.cc	/^T Queue<T>::Last() const$/;"	f	class:Queue
+MaxSize	recipe\MyQueue.cc	/^	int MaxSize;$/;"	m	class:Queue	file:
+Queue	recipe\MyQueue.cc	/^Queue<T>::Queue(int MaxQueueSize)$/;"	f	class:Queue
+Queue	recipe\MyQueue.cc	/^class Queue {$/;"	c	file:
+front	recipe\MyQueue.cc	/^	int front;$/;"	m	class:Queue	file:
+queue	recipe\MyQueue.cc	/^	T* queue;$/;"	m	class:Queue	file:
+rear	recipe\MyQueue.cc	/^	int rear;$/;"	m	class:Queue	file:
+~Queue	recipe\MyQueue.cc	/^	~Queue() { delete [] queue; }$/;"	f	class:Queue
+PRIN	recipe\bigIntAdd.c	3;"	d	file:
+change	recipe\bigIntAdd.c	/^void change(char da[], char db[], int a[], int b[], int c[]) $/;"	f
+flag	recipe\bigIntAdd.c	/^int flag = 0;$/;"	v
+N	recipe\bisearch.c	4;"	d	file:
+bisearch	recipe\bisearch.c	/^int bisearch(char** arr, int b, int e, char* v)$/;"	f
+bisearch2	recipe\bisearch.c	/^int bisearch2(int arr[N], int b, int e, int v)$/;"	f
+main	recipe\bisearch.c	/^int main()$/;"	f
+Addition	recipe\calc1-n.cc	/^	Addition() $/;"	f	class:Addition
+Addition	recipe\calc1-n.cc	/^	Addition() {}$/;"	f	class:Addition
+Addition	recipe\calc1-n.cc	/^class Addition {$/;"	c	file:
+Addition	recipe\calc1-n.cc	/^class Addition<1> {$/;"	c	file:
+d_ret	recipe\calc1-n.cc	/^	long long d_ret;$/;"	m	class:Addition	file:
+main	recipe\calc1-n.cc	/^int main()$/;"	f
+operator ()	recipe\calc1-n.cc	/^	long long operator()() {$/;"	f	class:Addition
+M	recipe\colorPearl.cc	7;"	d	file:
+N	recipe\colorPearl.cc	6;"	d	file:
+color	recipe\colorPearl.cc	/^	int color;$/;"	m	struct:color_pearl	file:
+color_all_mask	recipe\colorPearl.cc	/^	int color_all_mask;$/;"	m	struct:context	file:
+color_count	recipe\colorPearl.cc	/^	int color_count[N];$/;"	m	struct:context	file:
+color_map	recipe\colorPearl.cc	/^	int color_map;$/;"	m	struct:context	file:
+color_pearl	recipe\colorPearl.cc	/^struct color_pearl {$/;"	s	file:
+context	recipe\colorPearl.cc	/^struct context {$/;"	s	file:
+current_len	recipe\colorPearl.cc	/^	int current_len;$/;"	m	struct:context	file:
+end_pointer	recipe\colorPearl.cc	/^	struct listnode* end_pointer;$/;"	m	struct:context	typeref:struct:context::listnode	file:
+init_context	recipe\colorPearl.cc	/^void init_context(struct context* ctx, struct listnode* list)$/;"	f
+init_pearl_list	recipe\colorPearl.cc	/^struct listnode* init_pearl_list(int m)$/;"	f
+list	recipe\colorPearl.cc	/^	struct listnode list;$/;"	m	struct:color_pearl	typeref:struct:color_pearl::listnode	file:
+list_insert	recipe\colorPearl.cc	/^void list_insert(struct listnode* head, struct listnode* item)$/;"	f
+listnode	recipe\colorPearl.cc	/^struct listnode {$/;"	s	file:
+main	recipe\colorPearl.cc	/^int main()$/;"	f
+min_len	recipe\colorPearl.cc	/^	int min_len;$/;"	m	struct:context	file:
+min_pointer	recipe\colorPearl.cc	/^	struct listnode* min_pointer;$/;"	m	struct:context	typeref:struct:context::listnode	file:
+next	recipe\colorPearl.cc	/^	struct listnode* next;$/;"	m	struct:listnode	typeref:struct:listnode::listnode	file:
+pearl_pointer	recipe\colorPearl.cc	/^	struct listnode* pearl_pointer;$/;"	m	struct:context	typeref:struct:context::listnode	file:
+start_pointer	recipe\colorPearl.cc	/^	struct listnode* start_pointer;$/;"	m	struct:context	typeref:struct:context::listnode	file:
+BSTreeNode	recipe\convert2doublelist.cc	/^struct BSTreeNode$/;"	s	file:
+convert	recipe\convert2doublelist.cc	/^BSTreeNode* convert(BSTreeNode* phead, bool asRight)$/;"	f
+convert2doublelist	recipe\convert2doublelist.cc	/^BSTreeNode* convert2doublelist(BSTreeNode* phead)$/;"	f
+m_pLeft	recipe\convert2doublelist.cc	/^	BSTreeNode* m_pLeft;$/;"	m	struct:BSTreeNode	file:
+m_pRight	recipe\convert2doublelist.cc	/^	BSTreeNode* m_pRight;$/;"	m	struct:BSTreeNode	file:
+m_value	recipe\convert2doublelist.cc	/^	int m_value;$/;"	m	struct:BSTreeNode	file:
+deldupchar	recipe\deldupchar.c	/^void deldupchar(char* s)$/;"	f
+main	recipe\deldupchar.c	/^int main()$/;"	f
+displayHexBin	recipe\displayHexBin.cc	/^void displayHexBin(const T& v)$/;"	f
+main	recipe\displayHexBin.cc	/^int main()$/;"	f
+Factorial	recipe\factorial.cc	/^struct Factorial$/;"	s	file:
+Factorial	recipe\factorial.cc	/^struct Factorial<0>$/;"	s	file:
+factorial	recipe\factorial.cc	/^unsigned int factorial(unsigned int n)$/;"	f
+foo	recipe\factorial.cc	/^void foo()$/;"	f
+main	recipe\factorial.cc	/^int main()$/;"	f
+value	recipe\factorial.cc	/^	enum { value = 1 };$/;"	e	enum:Factorial::__anon9	file:
+value	recipe\factorial.cc	/^	enum { value = N*Factorial<N-1>::value };$/;"	e	enum:Factorial::__anon8	file:
+Fibonacci	recipe\fibonacci.cc	/^unsigned int Fibonacci(unsigned int n)$/;"	f
+Fibonacci2	recipe\fibonacci.cc	/^unsigned int Fibonacci2(unsigned int n)$/;"	f
+main	recipe\fibonacci.cc	/^int main()$/;"	f
+N	recipe\gamekickout.cc	2;"	d	file:
+eval	recipe\gamekickout.cc	/^void eval(int w[][N], int *order, int* result, int n)$/;"	f
+main	recipe\gamekickout.cc	/^int main()$/;"	f
+print	recipe\gamekickout.cc	/^void print(int* order, int n)$/;"	f
+swap	recipe\gamekickout.cc	/^void swap(int* a, int* b)$/;"	f
+heapsort	recipe\heapsort.cc	/^void heapsort(std::vector<T>& a)$/;"	f
+leftChild	recipe\heapsort.cc	/^inline int leftChild(int i)$/;"	f
+main	recipe\heapsort.cc	/^int main()$/;"	f
+percDown	recipe\heapsort.cc	/^void percDown(std::vector<T>& a, int i, int n)$/;"	f
+insertionSort	recipe\insertionSort.cc	/^void insertionSort(int arr[], int l, int r)$/;"	f
+main	recipe\insertionSort.cc	/^int main()$/;"	f
+getPrimes	recipe\isPrime.cc	/^void getPrimes(std::vector<int>& a)$/;"	f
+isPrime	recipe\isPrime.cc	/^bool isPrime(int a)$/;"	f
+main	recipe\isPrime.cc	/^int main()$/;"	f
+main	recipe\kth_smallest.cc	/^int main()$/;"	f
+partition	recipe\kth_smallest.cc	/^int partition(std::vector<int>& a, int l, int r)$/;"	f
+qsort	recipe\kth_smallest.cc	/^void qsort(std::vector<int>& a, int l, int r)$/;"	f
+select_kth_smallest	recipe\kth_smallest.cc	/^void select_kth_smallest(std::vector<int>& a, int l, int r, int k)$/;"	f
+select_kth_smallest2	recipe\kth_smallest.cc	/^void select_kth_smallest2(std::vector<int>& a, int l, int r, int k)$/;"	f
+main	recipe\mergeSort.c	/^int main()$/;"	f
+merge	recipe\mergeSort.c	/^void merge(int a[], int aux[], int l, int m, int r)$/;"	f
+mergesort	recipe\mergeSort.c	/^void mergesort(int a[], int aux[], int l, int r)$/;"	f
+aux	recipe\mergeSort.cc	/^item aux[maxN];$/;"	v
+item	recipe\mergeSort.cc	/^struct item {$/;"	s	file:
+key	recipe\mergeSort.cc	/^	int key;$/;"	m	struct:item	file:
+main	recipe\mergeSort.cc	/^int main()$/;"	f
+maxN	recipe\mergeSort.cc	5;"	d	file:
+maxN2	recipe\mergeSort.cc	4;"	d	file:
+merge	recipe\mergeSort.cc	/^void merge(item a[], int l, int m, int r)$/;"	f
+mergesort	recipe\mergeSort.cc	/^void mergesort(item a[], int l, int r)$/;"	f
+partition	recipe\mergeSort.cc	/^int partition(int a[], int l, int r, int v)$/;"	f
+qsort	recipe\mergeSort.cc	/^void qsort(int a[], int l, int r)$/;"	f
+value	recipe\mergeSort.cc	/^	int value;$/;"	m	struct:item	file:
+fullset	recipe\perm-fullset.cc	/^void fullset(std::vector<int>& v)$/;"	f
+main	recipe\perm-fullset.cc	/^int main()$/;"	f
+permutation	recipe\perm-fullset.cc	/^void permutation(std::vector<int>& v, int beg, int end)$/;"	f
+pm	recipe\perm-fullset.cc	/^void pm(std::vector<int>& v)$/;"	f
+print	recipe\perm-fullset.cc	/^void print(const std::vector<int>& s)$/;"	f
+print	recipe\perm-fullset.cc	/^void print(const std::vector<int>& v, int beg, int end)$/;"	f
+main	recipe\printPermutation.cc	/^int main(int argc, char* argv[])$/;"	f
+n	recipe\printPermutation.cc	/^int n=0;$/;"	v
+perm	recipe\printPermutation.cc	/^void perm(int list[], int k, int m)$/;"	f
+swap	recipe\printPermutation.cc	/^void swap(int* a, int* b)$/;"	f
+main	recipe\qsort2.cc	/^int main()$/;"	f
+partition1	recipe\qsort2.cc	/^int partition1(std::vector<int>& a, int l, int r)$/;"	f
+partition2	recipe\qsort2.cc	/^int partition2(std::vector<int>& a, int l, int r)$/;"	f
+qsort1	recipe\qsort2.cc	/^void qsort1(std::vector<int>& a, int l, int r)$/;"	f
+qsort2	recipe\qsort2.cc	/^void qsort2(std::vector<int>& a, int l, int r)$/;"	f
+main	recipe\quicksort.cc	/^int main()$/;"	f
+median	recipe\quicksort.cc	/^T median(const T& a, const T& b, const T& c)$/;"	f
+partition	recipe\quicksort.cc	/^T* partition(T* first, T* last, T pivot)$/;"	f
+qs_loop	recipe\quicksort.cc	/^void qs_loop(T* first, T* last)$/;"	f
+quicksort	recipe\quicksort.cc	/^void quicksort(std::vector<int>& data)$/;"	f
+constructList	recipe\reverseSingleList.cc	/^listNode* constructList(int arr[], int length)$/;"	f
+listNode	recipe\reverseSingleList.cc	/^struct listNode {$/;"	s	file:
+main	recipe\reverseSingleList.cc	/^int main()$/;"	f
+next	recipe\reverseSingleList.cc	/^	listNode* next;$/;"	m	struct:listNode	file:
+printList	recipe\reverseSingleList.cc	/^void printList(listNode* phead)$/;"	f
+reverseList	recipe\reverseSingleList.cc	/^listNode* reverseList(listNode* phead)$/;"	f
+value	recipe\reverseSingleList.cc	/^	int value;$/;"	m	struct:listNode	file:
+main	recipe\shellsort.cc	/^int main()$/;"	f
+print	recipe\shellsort.cc	/^void print(int A[], int size)$/;"	f
+shellSort	recipe\shellsort.cc	/^void shellSort(int A[], int size)$/;"	f
+N	recipe\stackmin.cc	3;"	d	file:
+data	recipe\stackmin.cc	/^	int data[N];$/;"	m	class:stackmin	file:
+main	recipe\stackmin.cc	/^int main()$/;"	f
+min	recipe\stackmin.cc	/^	bool min(int& m)$/;"	f	class:stackmin
+minidx	recipe\stackmin.cc	/^	int minidx[N];$/;"	m	class:stackmin	file:
+pop	recipe\stackmin.cc	/^	bool pop(int& d)$/;"	f	class:stackmin
+print	recipe\stackmin.cc	/^	void print()$/;"	f	class:stackmin
+push	recipe\stackmin.cc	/^	bool push(int d)$/;"	f	class:stackmin
+stackmin	recipe\stackmin.cc	/^	stackmin() $/;"	f	class:stackmin
+stackmin	recipe\stackmin.cc	/^class stackmin {$/;"	c	file:
+top	recipe\stackmin.cc	/^	int top;$/;"	m	class:stackmin	file:
+__final_insertion_sort	recipe\stlsort.cc	/^void __final_insertion_sort(RandomAccessIterator first, RandomAccessIterator last)$/;"	f
+__insertion_sort	recipe\stlsort.cc	/^void __insertion_sort(RandomAccessIterator first, RandomAccessIterator last)$/;"	f
+__introsort_loop	recipe\stlsort.cc	/^void __introsort_loop(RandomAccessIterator first, RandomAccessIterator last, T*, $/;"	f
+__lg	recipe\stlsort.cc	/^inline Size __lg(Size n)$/;"	f
+__linear_insert	recipe\stlsort.cc	/^inline void __linear_insert(RandomAccessIterator first, RandomAccessIterator last, T*)$/;"	f
+__median	recipe\stlsort.cc	/^inline const T& __median(const T& a, const T& b, const T& c)$/;"	f
+__unguarded_insertion_sort	recipe\stlsort.cc	/^inline void __unguarded_insertion_sort(RandomAccessIterator first, RandomAccessIterator last)$/;"	f
+__unguarded_insertion_sort_aux	recipe\stlsort.cc	/^void __unguarded_insertion_sort_aux(RandomAccessIterator first, RandomAccessIterator last, T*)$/;"	f
+__unguarded_linear_insert	recipe\stlsort.cc	/^inline void __unguarded_linear_insert(RandomAccessIterator last, T value)$/;"	f
+__unguarded_partition	recipe\stlsort.cc	/^RandomAccessIterator __unguarded_partition(RandomAccessIterator first,$/;"	f
+sort	recipe\stlsort.cc	/^inline void sort(RandomAccessIterator first, RandomAccessIterator last)$/;"	f
+main	revertString.c	/^int main()$/;"	f
+revertString	revertString.c	/^void revertString(char* s)$/;"	f
+SetupConfig	setupconfig.cc	/^void SmoApp::SetupConfig()$/;"	f	class:SmoApp
+ClearList	singlelist_dyn.c	/^void ClearList(LinkList L)$/;"	f
+DestoryList	singlelist_dyn.c	/^void DestoryList(LinkList* L)$/;"	f
+GetElem	singlelist_dyn.c	/^Status GetElem(LinkList L, int i, ElemType* e)$/;"	f
+InitList	singlelist_dyn.c	/^void InitList(LinkList* L)$/;"	f
+LNode	singlelist_dyn.c	/^typedef struct LNode {$/;"	s	file:
+LNode	singlelist_dyn.c	/^} LNode, *LinkList;$/;"	t	typeref:struct:LNode	file:
+LinkList	singlelist_dyn.c	/^} LNode, *LinkList;$/;"	t	typeref:struct:LNode	file:
+ListDelete	singlelist_dyn.c	/^Status ListDelete(LinkList L, int i, ElemType* e)$/;"	f
+ListEmpty	singlelist_dyn.c	/^Status ListEmpty(LinkList L)$/;"	f
+ListInsert	singlelist_dyn.c	/^Status ListInsert(LinkList L, int i, ElemType e)$/;"	f
+ListLength	singlelist_dyn.c	/^int ListLength(LinkList L)$/;"	f
+ListTraverse	singlelist_dyn.c	/^void ListTraverse(LinkList L, void (*vi)(ElemType))$/;"	f
+LocateElem	singlelist_dyn.c	/^int LocateElem(LinkList L, ElemType e, Status (*compare)(ElemType, ElemType))$/;"	f
+NextElem	singlelist_dyn.c	/^Status NextElem(LinkList L, ElemType cur_e, ElemType* next_e)$/;"	f
+PrioElem	singlelist_dyn.c	/^Status PrioElem(LinkList L, ElemType cur_e, ElemType* pre_e)$/;"	f
+data	singlelist_dyn.c	/^	ElemType data;$/;"	m	struct:LNode	file:
+next	singlelist_dyn.c	/^	struct LNode* next;$/;"	m	struct:LNode	typeref:struct:LNode::LNode	file:
+instance	singleton.cc	/^	static singleton* instance()$/;"	f	class:singleton
+instance	singleton.cc	/^	static singleton2& instance()$/;"	f	class:singleton2
+instance	singleton.cc	/^	static singleton3* instance()$/;"	f	class:singleton3
+instance	singleton.cc	/^	static singletonmt& instance()$/;"	f	class:singletonmt
+m_ps	singleton.cc	/^	static singleton* m_ps;$/;"	m	class:singleton	file:
+m_ps	singleton.cc	/^	static singleton3* m_ps;$/;"	m	class:singleton3	file:
+m_ps	singleton.cc	/^	static singletonmt* m_ps;$/;"	m	class:singletonmt	file:
+m_ps	singleton.cc	/^singleton* singleton::m_ps = 0;$/;"	m	class:singleton	file:
+m_ps	singleton.cc	/^singleton3* singleton3::m_ps = 0;$/;"	m	class:singleton3	file:
+m_ps	singleton.cc	/^singletonmt* singletonmt::m_ps = 0;$/;"	m	class:singletonmt	file:
+m_s	singleton.cc	/^	static singleton2 m_s;$/;"	m	class:singleton2	file:
+m_s	singleton.cc	/^singleton2 singleton2::m_s;$/;"	m	class:singleton2	file:
+main	singleton.cc	/^int main()$/;"	f
+operator =	singleton.cc	/^	singleton& operator=(const singleton&) {}$/;"	f	class:singleton
+operator =	singleton.cc	/^	singleton2& operator=(const singleton2&) {}$/;"	f	class:singleton2
+operator =	singleton.cc	/^	singleton3& operator=(const singleton3&) {}$/;"	f	class:singleton3
+operator =	singleton.cc	/^	singletonmt& operator=(const singletonmt&) {}$/;"	f	class:singletonmt
+printSomething	singleton.cc	/^	void printSomething() {$/;"	f	class:singleton3
+singleton	singleton.cc	/^	singleton() { std::cout << "construct m_ps; \\n"; }$/;"	f	class:singleton
+singleton	singleton.cc	/^	singleton(const singleton&) {}$/;"	f	class:singleton
+singleton	singleton.cc	/^class singleton $/;"	c	file:
+singleton2	singleton.cc	/^	singleton2() {}$/;"	f	class:singleton2
+singleton2	singleton.cc	/^	singleton2(const singleton2&) {}$/;"	f	class:singleton2
+singleton2	singleton.cc	/^class singleton2$/;"	c	file:
+singleton3	singleton.cc	/^	singleton3() {}$/;"	f	class:singleton3
+singleton3	singleton.cc	/^	singleton3(const singleton3&) {}$/;"	f	class:singleton3
+singleton3	singleton.cc	/^class singleton3$/;"	c	file:
+singletonmt	singleton.cc	/^	singletonmt() {}$/;"	f	class:singletonmt
+singletonmt	singleton.cc	/^	singletonmt(const singletonmt&) {}$/;"	f	class:singletonmt
+singletonmt	singleton.cc	/^class singletonmt$/;"	c	file:
+~singleton	singleton.cc	/^	~singleton() { if (m_ps) { delete m_ps; std::cout << "delete\/destory m_ps; \\n"; } } $/;"	f	class:singleton
+~singleton2	singleton.cc	/^	~singleton2() {}$/;"	f	class:singleton2
+~singleton3	singleton.cc	/^	~singleton3() { m_ps = 0; std::cout << "destroy singleton3.\\n"; }$/;"	f	class:singleton3
+~singletonmt	singleton.cc	/^	~singletonmt() {}$/;"	f	class:singletonmt
+Logger	singletonExample.cc	/^typedef Singleton<logger> Logger;$/;"	t	file:
+closeLogFile	singletonExample.cc	/^bool closeLogFile(std::string)$/;"	f
+logger	singletonExample.cc	/^	logger() {}$/;"	f	class:logger
+logger	singletonExample.cc	/^class logger$/;"	c	file:
+main	singletonExample.cc	/^int main()$/;"	f
+openLogFile	singletonExample.cc	/^bool Logger::openLogFile(std::string)$/;"	f	class:Logger
+writeToLogFile	singletonExample.cc	/^void Logger::writeToLogFile(std::string)$/;"	f	class:Logger
+~logger	singletonExample.cc	/^	~logger() {}$/;"	f	class:logger
+Intance	singletonExample.h	/^	static T* Intance() {$/;"	f	class:Singleton
+Singleton	singletonExample.h	/^class Singleton $/;"	c
+m_pInstance	singletonExample.h	/^	static T* m_pInstance;$/;"	m	class:Singleton
+m_pInstance	singletonExample.h	/^T* Singeton<T>::m_pInstance = 0;$/;"	m	class:Singeton
+SmoApp	smocode.cc	/^SmoApp::SmoApp(int argc, char** argv)$/;"	f	class:SmoApp
+remove_subdirectory	smocode.cc	/^static int remove_subdirectory(const char* dir)$/;"	f	file:
+symlink_dir	smocode.cc	/^static bool symlink_dir(const char* olddir, const char* newdir, int silent=0)$/;"	f	file:
+MAXHOSTNAME	socketExam.cc	10;"	d	file:
+main	socketExam.cc	/^int main()$/;"	f
+ClearList	sqlist.c	/^void ClearList(SqList* L)$/;"	f
+DestoryList	sqlist.c	/^void DestoryList(SqList* L)$/;"	f
+GetElem	sqlist.c	/^Status GetElem(SqList L, int i, ElemType* e)$/;"	f
+InitList	sqlist.c	/^void InitList(SqList* L)$/;"	f
+LIST_INCREMENT	sqlist.c	2;"	d	file:
+LIST_INIT_SIZE	sqlist.c	1;"	d	file:
+ListDelete	sqlist.c	/^Status ListDelete(SqList* L, int i , ElemType* e)$/;"	f
+ListEmpty	sqlist.c	/^Status ListEmpty(SqList L)$/;"	f
+ListInsert	sqlist.c	/^Status ListInsert(SqList* L, int i, ElemType e)$/;"	f
+ListLength	sqlist.c	/^int ListLength(SqList L)$/;"	f
+ListTraverse	sqlist.c	/^void ListTraverse(SqList L, void (*vi)(ElemType*))$/;"	f
+LocateElem	sqlist.c	/^int LocateElem(SqList L, ElemType e, Status (*compare)(ElemType, ElemType))$/;"	f
+NextElem	sqlist.c	/^Status NextElem(SqList L, ElemType cur_e, ElemType* next_e)$/;"	f
+PrioElem	sqlist.c	/^Status PrioElem(SqList L, ElemType cur_e, ElemType* pre_e)$/;"	f
+SqList	sqlist.c	/^} SqList;$/;"	t	typeref:struct:__anon10	file:
+elem	sqlist.c	/^	ElemType* elem;$/;"	m	struct:__anon10	file:
+length	sqlist.c	/^	int length;$/;"	m	struct:__anon10	file:
+listsize	sqlist.c	/^	int listsize;$/;"	m	struct:__anon10	file:
+atof	string.c	/^double atof(char s[])$/;"	f
+atoi	string.c	/^int atoi(char s[])$/;"	f
+main	string.c	/^int main()$/;"	f
+strcmp1	string.c	/^int strcmp1(char* s, char* t)$/;"	f
+strcmp2	string.c	/^int strcmp2(char* s, char* t)$/;"	f
+strcpy1	string.c	/^void strcpy1(char* s, char* t)$/;"	f
+strcpy2	string.c	/^void strcpy2(char* s, char* t)$/;"	f
+strcpy3	string.c	/^void strcpy3(char* s, char* t)$/;"	f
+strcpy4	string.c	/^void strcpy4(char* s, char* t)$/;"	f
+main	subarrayMaxSum.cc	/^int main()$/;"	f
+maxSubarraySum	subarrayMaxSum.cc	/^int maxSubarraySum(int arr[], int length, int& beg, int& end)$/;"	f
+BUFSIZ	sysinc.h	6;"	d
+EOF	sysinc.h	5;"	d
+FILE	sysinc.h	/^} FILE; $/;"	t	typeref:struct:_iobuf
+NULL	sysinc.h	4;"	d
+OPEN_MAX	sysinc.h	7;"	d
+_EOF	sysinc.h	/^	_EOF 	= 010;$/;"	e	enum:_flags
+_ERR	sysinc.h	/^	_ERR	= 020;$/;"	e	enum:_flags
+_READ	sysinc.h	/^	_READ 	= 01;$/;"	e	enum:_flags
+_UNBUF	sysinc.h	/^	_UNBUF 	= 04;$/;"	e	enum:_flags
+_WRITE	sysinc.h	/^	_WRITE 	= 02;$/;"	e	enum:_flags
+__SYSINC_H__	sysinc.h	2;"	d
+_flags	sysinc.h	/^enum _flags {$/;"	g
+_iobuf	sysinc.h	/^typedef struct _iobuf {$/;"	s
+base	sysinc.h	/^	char* base;$/;"	m	struct:_iobuf
+cnt	sysinc.h	/^	int cnt;$/;"	m	struct:_iobuf
+fd	sysinc.h	/^	int fd;$/;"	m	struct:_iobuf
+feof	sysinc.h	34;"	d
+ferror	sysinc.h	35;"	d
+fileno	sysinc.h	36;"	d
+flag	sysinc.h	/^	int flag;$/;"	m	struct:_iobuf
+getc	sysinc.h	38;"	d
+getchar	sysinc.h	43;"	d
+ptr	sysinc.h	/^	char* ptr;$/;"	m	struct:_iobuf
+putc	sysinc.h	40;"	d
+putchar	sysinc.h	44;"	d
+stderr	sysinc.h	21;"	d
+stdin	sysinc.h	19;"	d
+stdout	sysinc.h	20;"	d
+TRACE	test.c	7;"	d	file:
+a	test.c	/^union { int a; int b; } uval;$/;"	m	union:__anon11	file:
+b	test.c	/^union { int a; int b; } uval;$/;"	m	union:__anon11	file:
+main	test.c	/^int main()$/;"	f
+my_print	test.c	/^void my_print(char* string)$/;"	f
+my_print2	test.c	/^void my_print2(char* string)$/;"	f
+uval	test.c	/^union { int a; int b; } uval;$/;"	v	typeref:union:__anon11
+main	test0311.c	/^int main()$/;"	f
+main	test0313.c	/^int main()$/;"	f
+main	test1.c	/^int main()$/;"	f
+main	test1105.c	/^int main()$/;"	f
+main	testA.c	/^int main()$/;"	f
+A	test\test.cc	/^	A() { std::cout << "Construct A.\\n"; }$/;"	f	struct:A
+A	test\test.cc	/^struct A $/;"	s	file:
+enterA	test\test.cc	/^void enterA() $/;"	f
+enterB	test\test.cc	/^void enterB()$/;"	f
+enterC	test\test.cc	/^void enterC()$/;"	f
+main	test\test.cc	/^int main()$/;"	f
+~A	test\test.cc	/^	~A() { std::cout << "Destruct A.\\n"; }$/;"	f	struct:A
+Rational	test\test0104.cc	/^	explicit Rational(int a = 0, int b = 0) $/;"	f	class:Rational
+Rational	test\test0104.cc	/^class Rational $/;"	c	file:
+d_a	test\test0104.cc	/^	int d_a;$/;"	m	class:Rational	file:
+d_b	test\test0104.cc	/^	int d_b;$/;"	m	class:Rational	file:
+main	test\test0104.cc	/^int main()$/;"	f
+operator +	test\test0104.cc	/^Rational operator +(const Rational& aa, const Rational& bb)$/;"	f
+main	test\test0114.cc	/^int main()$/;"	f
+main	test\test0119.cc	/^int main()$/;"	f
+main	test\test0224.cc	/^int main()$/;"	f
+Circle	test\test0226.cc	/^class Circle : public Shape {$/;"	c	file:
+Shape	test\test0226.cc	/^class Shape {$/;"	c	file:
+draw	test\test0226.cc	/^	virtual void draw() const {$/;"	f	class:Circle
+main	test\test0226.cc	/^int main()$/;"	f
+B	test\test0227.cc	/^class B {$/;"	c	file:
+D	test\test0227.cc	/^class D: public B {$/;"	c	file:
+f	test\test0227.cc	/^	int f() {$/;"	f	class:D
+f	test\test0227.cc	/^	int f(int) {$/;"	f	class:D
+f	test\test0227.cc	/^	virtual int f(int) {$/;"	f	class:B
+f	test\test0227.cc	/^	void f(B*) {$/;"	f	class:B
+main	test\test0227.cc	/^int main()$/;"	f
+main	test\test0301.cc	/^int main()$/;"	f
+main	test\test0317.cc	/^int main()$/;"	f
+GetIntegerSequence	test\test0322.cc	/^void PositiveInteger::GetIntegerSequence(int n)$/;"	f	class:PositiveInteger
+PositiveInteger	test\test0322.cc	/^    PositiveInteger()$/;"	f	class:PositiveInteger
+PositiveInteger	test\test0322.cc	/^class PositiveInteger$/;"	c	file:
+display	test\test0322.cc	/^void PositiveInteger::display(int n)$/;"	f	class:PositiveInteger
+m_vecBegin	test\test0322.cc	/^    vector <int> m_vecBegin;\/\/the begin integer of the sequence$/;"	m	class:PositiveInteger	file:
+m_vecEnd	test\test0322.cc	/^    vector <int> m_vecEnd;    \/\/the end integer of the sequence$/;"	m	class:PositiveInteger	file:
+main	test\test0322.cc	/^int main()$/;"	f
+show_menu	test\test0322.cc	/^void show_menu()$/;"	f
+~PositiveInteger	test\test0322.cc	/^    ~PositiveInteger(){}$/;"	f	class:PositiveInteger
+A	test\test0323.cc	/^	A() {}$/;"	f	class:A
+A	test\test0323.cc	/^class A {$/;"	c	file:
+B	test\test0323.cc	/^	B() {};$/;"	f	class:B
+B	test\test0323.cc	/^class B : public A{$/;"	c	file:
+func1	test\test0323.cc	/^	B* func1(int b) {$/;"	f	class:B
+func1	test\test0323.cc	/^	double func1(double b) {$/;"	f	class:B
+func1	test\test0323.cc	/^	virtual A* func1(int a) {$/;"	f	class:A
+func2	test\test0323.cc	/^	void func2() {$/;"	f	class:A
+func2	test\test0323.cc	/^	void func2() {$/;"	f	class:B
+main	test\test0323.cc	/^int main()$/;"	f
+_data	test\test0324.cc	/^	static int _data;$/;"	m	struct:testClass	file:
+_data	test\test0324.cc	/^template <> int testClass<char>::_data = 1;$/;"	m	class:testClass	file:
+_data	test\test0324.cc	/^template <> int testClass<long>::_data = 2;$/;"	m	class:testClass	file:
+_t	test\test0324.cc	/^	T _t;$/;"	m	struct:testClass	file:
+a	test\test0324.cc	/^	T a;$/;"	m	struct:test	file:
+b	test\test0324.cc	/^	I b;$/;"	m	struct:testClass	file:
+c	test\test0324.cc	/^	O c;$/;"	m	struct:testClass	file:
+main	test\test0324.cc	/^int main()$/;"	f
+mfun	test\test0324.cc	/^	template <class T> void mfun(const T& t)$/;"	f	struct:testClass
+operator T	test\test0324.cc	/^	template <class T> operator T()$/;"	f	struct:testClass
+swap	test\test0324.cc	/^	void swap(testClass&) {$/;"	f	struct:testClass
+swap	test\test0324.cc	/^template <class T> inline void swap(testClass<T>& x, testClass<T>& y)$/;"	f
+test	test\test0324.cc	/^struct test {$/;"	s	file:
+testClass	test\test0324.cc	/^	testClass() : _t(n) {$/;"	f	struct:testClass
+testClass	test\test0324.cc	/^	testClass() { $/;"	f	struct:testClass
+testClass	test\test0324.cc	/^	testClass() {$/;"	f	struct:testClass
+testClass	test\test0324.cc	/^struct testClass {$/;"	s	file:
+testClass	test\test0324.cc	/^struct testClass<T*, T*> {$/;"	s	file:
+testClass	test\test0324.cc	/^struct testClass<const T*, T*> {$/;"	s	file:
+main	test\test0422.cc	/^int main()$/;"	f
+print_list	test\test0422.cc	/^void print_list(const list<int>& l)$/;"	f
+print_set	test\test0422.cc	/^void print_set(const set<int>& s)$/;"	f
+main	test\test0501.cc	/^int main()$/;"	f
+convertToString	test\test0522-a.cc	/^const char* convertToString(char buf[], int val)$/;"	f
+main	test\test0522-a.cc	/^int main()$/;"	f
+main	test\test0522-b.cc	/^int main()$/;"	f
+a	test\test0522.cc	/^	static T a;$/;"	m	class:classA	file:
+a	test\test0522.cc	/^T classA<T>::a = 1;$/;"	m	class:classA	file:
+classA	test\test0522.cc	/^class classA {$/;"	c	file:
+main	test\test0522.cc	/^int main()$/;"	f
+testTemplate	test\test0522.cc	/^void testTemplate(T a)$/;"	f
+main	test\test0524.cc	/^int main()$/;"	f
+main	test\test0817.cc	/^int main()$/;"	f
+main	test\test0921.cc	/^int main()$/;"	f
+point	test\test0921.cc	/^class point {$/;"	c	file:
+x	test\test0921.cc	/^	int x,y,z;$/;"	m	class:point	file:
+y	test\test0921.cc	/^	int x,y,z;$/;"	m	class:point	file:
+z	test\test0921.cc	/^	int x,y,z;$/;"	m	class:point	file:
+main	test\test1014-2.cc	/^int main()$/;"	f
+A	test\test1014.cc	/^	A() { printf("A"); }$/;"	f	struct:A
+A	test\test1014.cc	/^struct A$/;"	s	file:
+B	test\test1014.cc	/^	B() { printf("B"); }$/;"	f	struct:B
+B	test\test1014.cc	/^struct B$/;"	s	file:
+Base	test\test1014.cc	/^	Base() { Init(); }$/;"	f	class:Base
+Base	test\test1014.cc	/^class Base $/;"	c	file:
+C	test\test1014.cc	/^	C() { printf("C"); }$/;"	f	struct:C
+C	test\test1014.cc	/^struct C$/;"	s	file:
+D	test\test1014.cc	/^	D() { printf("D"); }$/;"	f	struct:D
+D	test\test1014.cc	/^struct D$/;"	s	file:
+Derived	test\test1014.cc	/^class Derived: public Base$/;"	c	file:
+E	test\test1014.cc	/^	E() { printf("E"); }$/;"	f	struct:E
+E	test\test1014.cc	/^struct E$/;"	s	file:
+Init	test\test1014.cc	/^	virtual void Init() { printf("BaseInit\\n"); }$/;"	f	class:Base
+Init	test\test1014.cc	/^	virtual void Init() { printf("DerivedInit\\n"); }$/;"	f	class:Derived
+c	test\test1014.cc	/^C c;$/;"	v
+func	test\test1014.cc	/^	virtual void func() { printf("Base func\\n"); }$/;"	f	class:Base
+func	test\test1014.cc	/^	void func() { printf("Derived func\\n"); }$/;"	f	class:Derived
+getmemory	test\test1014.cc	/^char* getmemory()$/;"	f
+main	test\test1014.cc	/^int main()$/;"	f
+printHex	test\test1014.cc	/^void printHex(char* p)$/;"	f
+~A	test\test1014.cc	/^	~A() { printf("~A"); }$/;"	f	struct:A
+~B	test\test1014.cc	/^	~B() { printf("~B"); }$/;"	f	struct:B
+~C	test\test1014.cc	/^	~C() { printf("~C"); }$/;"	f	struct:C
+~D	test\test1014.cc	/^	~D() { printf("~D"); }$/;"	f	struct:D
+~E	test\test1014.cc	/^	~E() { printf("~E"); }$/;"	f	struct:E
+main	test\test1017.cc	/^int main()$/;"	f
+main	test\test1018.cc	/^int main()$/;"	f
+square	test\test1018.cc	/^int square(int n)$/;"	f
+A	test\test1101.cc	/^	A(int v) {$/;"	f	class:A
+A	test\test1101.cc	/^class A {$/;"	c	file:
+a	test\test1101.cc	/^int a = 10;$/;"	v
+main	test\test1101.cc	/^int main()$/;"	f
+TRACE	test\test1105.cc	3;"	d	file:
+main	test\test1105.cc	/^int main()$/;"	f
+base	test\test1106.cc	/^class base {$/;"	c	file:
+derived	test\test1106.cc	/^class derived : public base$/;"	c	file:
+main	test\test1106.cc	/^int main()$/;"	f
+~base	test\test1106.cc	/^base::~base() { }$/;"	f	class:base
+A	test\test1110.cc	/^class A {$/;"	c	file:
+B	test\test1110.cc	/^class B : public A {$/;"	c	file:
+main	test\test1110.cc	/^int main()$/;"	f
+~A	test\test1110.cc	/^	~A() { std::cout << "A "; }$/;"	f	class:A
+~B	test\test1110.cc	/^	~B() { std::cout << "B "; }$/;"	f	class:B
+main	test\test1114.cc	/^int main()$/;"	f
+DBL_MAX	test\test1204.cc	2;"	d	file:
+main	test\test1204.cc	/^int main()$/;"	f
+main	test\test1222.cc	/^int main()$/;"	f
+A	test\testEmptyMember.cc	/^class A {$/;"	c	file:
+Base	test\testEmptyMember.cc	/^class Base {$/;"	c	file:
+a	test\testEmptyMember.cc	/^	int a;$/;"	m	class:A	file:
+b	test\testEmptyMember.cc	/^	Base b;$/;"	m	class:A	file:
+be	test\testEmptyMember.cc	/^	char be;$/;"	m	class:A	file:
+func	test\testEmptyMember.cc	/^	void func() { std::cout << "Base::func()" << std::endl; }$/;"	f	class:Base
+main	test\testEmptyMember.cc	/^int main()$/;"	f
+main	test\testlua.cc	/^			int main(int argc, char** argv)$/;"	f
+report_errors	test\testlua.cc	/^void report_errors(lua_State *L, int status)$/;"	f
+Child	test\testobjlayout.cc	/^	Child() $/;"	f	class:Child
+Child	test\testobjlayout.cc	/^class Child : public Parent {$/;"	c	file:
+Fun	test\testobjlayout.cc	/^typedef void (*Fun)(void);$/;"	t	file:
+GrandChild	test\testobjlayout.cc	/^	GrandChild()$/;"	f	class:GrandChild
+GrandChild	test\testobjlayout.cc	/^class GrandChild : public Child {$/;"	c	file:
+Parent	test\testobjlayout.cc	/^	Parent() $/;"	f	class:Parent
+Parent	test\testobjlayout.cc	/^class Parent {$/;"	c	file:
+f	test\testobjlayout.cc	/^	virtual void f() { $/;"	f	class:GrandChild
+f	test\testobjlayout.cc	/^	virtual void f() { $/;"	f	class:Parent
+f	test\testobjlayout.cc	/^	virtual void f() {$/;"	f	class:Child
+g	test\testobjlayout.cc	/^	virtual void g() {$/;"	f	class:Parent
+g_child	test\testobjlayout.cc	/^	virtual void g_child() {$/;"	f	class:Child
+g_child	test\testobjlayout.cc	/^	virtual void g_child() {$/;"	f	class:GrandChild
+h	test\testobjlayout.cc	/^	virtual void h() {$/;"	f	class:Parent
+h_child	test\testobjlayout.cc	/^	virtual void h_child() {$/;"	f	class:Child
+h_grandchild	test\testobjlayout.cc	/^	virtual void h_grandchild() {$/;"	f	class:GrandChild
+ichild	test\testobjlayout.cc	/^	int ichild;$/;"	m	class:Child	file:
+igrandchild	test\testobjlayout.cc	/^	int igrandchild;$/;"	m	class:GrandChild	file:
+iparent	test\testobjlayout.cc	/^	int iparent;$/;"	m	class:Parent	file:
+main	test\testobjlayout.cc	/^int main() $/;"	f
+load	test\testserialization.cc	/^void load()$/;"	f
+main	test\testserialization.cc	/^int main()$/;"	f
+save	test\testserialization.cc	/^void save()$/;"	f
+main	test\testvariant.cc	/^int main()$/;"	f
+Base1	test\testvtable.cc	/^class Base1 {$/;"	c	file:
+Base2	test\testvtable.cc	/^class Base2 {$/;"	c	file:
+Base3	test\testvtable.cc	/^class Base3 {$/;"	c	file:
+Derive	test\testvtable.cc	/^class Derive : public Base1, public Base2, public Base3$/;"	c	file:
+Fun	test\testvtable.cc	/^typedef void (*Fun)(void);$/;"	t	file:
+f	test\testvtable.cc	/^	virtual void f() { $/;"	f	class:Base1
+f	test\testvtable.cc	/^	virtual void f() { $/;"	f	class:Derive
+f	test\testvtable.cc	/^	virtual void f() {$/;"	f	class:Base2
+f	test\testvtable.cc	/^	virtual void f() {$/;"	f	class:Base3
+g	test\testvtable.cc	/^	virtual void g() {$/;"	f	class:Base1
+g	test\testvtable.cc	/^	virtual void g() {$/;"	f	class:Base2
+g	test\testvtable.cc	/^	virtual void g() {$/;"	f	class:Base3
+g1	test\testvtable.cc	/^	virtual void g1() {$/;"	f	class:Derive
+h	test\testvtable.cc	/^	virtual void h() {$/;"	f	class:Base1
+h	test\testvtable.cc	/^	virtual void h() {$/;"	f	class:Base2
+h	test\testvtable.cc	/^	virtual void h() {$/;"	f	class:Base3
+main	test\testvtable.cc	/^int main()$/;"	f
+cleanup_handler	thread\pthread_cleanup_test.c	/^static void cleanup_handler(void* arg)$/;"	f	file:
+cleanup_pop_arg	thread\pthread_cleanup_test.c	/^static int cleanup_pop_arg = 1;$/;"	v	file:
+cnt	thread\pthread_cleanup_test.c	/^static int cnt = 0;$/;"	v	file:
+done	thread\pthread_cleanup_test.c	/^static int done = 0;$/;"	v	file:
+handle_error_en	thread\pthread_cleanup_test.c	8;"	d	file:
+main	thread\pthread_cleanup_test.c	/^int main(int argc, char** argv)$/;"	f
+thread_start	thread\pthread_cleanup_test.c	/^static void* thread_start(void* arg)$/;"	f	file:
+Cleanup	thread\thread.cc	/^void Thread::Cleanup(void* arg)$/;"	f	class:Thread
+Raise	thread\thread.cc	/^void Thread::Raise(int sig) const$/;"	f	class:Thread
+Run	thread\thread.cc	/^void* Thread::Run(void* arg)$/;"	f	class:Thread
+Start	thread\thread.cc	/^bool Thread::Start()$/;"	f	class:Thread
+Stop	thread\thread.cc	/^void Thread::Stop()$/;"	f	class:Thread
+Thread	thread\thread.cc	/^Thread::Thread(int stacksize)$/;"	f	class:Thread
+TimedWait	thread\thread.cc	/^int Cond::TimedWait(Mutex& mutex, int msec)$/;"	f	class:Cond
+Wait	thread\thread.cc	/^void* Thread::Wait()$/;"	f	class:Thread
+~Thread	thread\thread.cc	/^Thread::~Thread()$/;"	f	class:Thread
+AutoDelete	thread\thread.h	/^	void AutoDelete(bool onoff) { d_autodelete = onoff; }$/;"	f	class:Thread
+Broadcast	thread\thread.h	/^	void Broadcast() { pthread_cond_broadcast(&d_cond); }$/;"	f	class:Cond
+Cleanup	thread\thread.h	/^	virtual void Cleanup() { if (d_autodel) delete this; }$/;"	f	class:Thread
+Cond	thread\thread.h	/^	Cond() { pthread_cond_init(&d_cond, 0); }$/;"	f	class:Cond
+Cond	thread\thread.h	/^class Cond : public NoCopy$/;"	c
+IsCurrent	thread\thread.h	/^	bool IsCurrent() const { return pthread_equal(d_thread, pthread_self()); }$/;"	f	class:Thread
+Lock	thread\thread.h	/^	void Lock() { pthread_mutex_lock(&d_mutex); }$/;"	f	class:Mutex
+Lock_Cancel	thread\thread.h	/^	void Lock_Cancel() { pthread_testcancel(); pthread_mutex_lock(&d_mutex); }$/;"	f	class:Mutex
+Mutex	thread\thread.h	/^class Mutex : public NoCopy$/;"	c
+Mutext	thread\thread.h	/^	Mutext(bool recursive = false) {$/;"	f	class:Mutex
+SetPriority	thread\thread.h	/^	void SetPriority(int prio) {$/;"	f	class:Thread
+SetStackSize	thread\thread.h	/^	void SetStackSize(int stacksize) {$/;"	f	class:Thread
+Signal	thread\thread.h	/^	void Signal() { pthread_cond_signal(&d_cond); }$/;"	f	class:Cond
+THREAD_H_	thread\thread.h	2;"	d
+Thread	thread\thread.h	/^class Thread : public NoCopy$/;"	c
+TryLock	thread\thread.h	/^	bool TryLock() { pthread_mutex_trylock(&d_mutex); }$/;"	f	class:Mutex
+Unlock	thread\thread.h	/^	void Unlock() { pthread_mutex_unlock(&d_mutex); }$/;"	f	class:Mutex
+Wait	thread\thread.h	/^	void Wait(Mutex& mutex) {$/;"	f	class:Cond
+Yield	thread\thread.h	/^	static void Yield() { sched_yield(); }$/;"	f	class:Thread
+d_attr	thread\thread.h	/^	pthread_attr_t d_attr;$/;"	m	class:Thread
+d_autodel	thread\thread.h	/^	bool d_autodel;$/;"	m	class:Thread
+d_cond	thread\thread.h	/^	pthread_cond_t d_cond;$/;"	m	class:Cond
+d_mutex	thread\thread.h	/^	pthread_mutex_t d_mutex;$/;"	m	class:Mutex
+d_started	thread\thread.h	/^	bool d_started;$/;"	m	class:Thread
+d_thread	thread\thread.h	/^	pthread_t d_thread;$/;"	m	class:Thread
+~Cond	thread\thread.h	/^	~Cond() { pthread_cond_destroy(&d_cond); }$/;"	f	class:Cond
+~Mutex	thread\thread.h	/^	~Mutex() { pthread_mutex_destroy(&d_mutex); }$/;"	f	class:Mutex
+Clear	threadmisc.h	/^	void Clear() {$/;"	f	struct:TLSDestroyableA
+Destroy	threadmisc.h	/^	static void Destroy(void* arg) { delete reinterpret_cast<T*>(arg); }$/;"	f	class:TLS
+Get	threadmisc.h	/^	T& Get()$/;"	f	struct:TLSDestroyableA
+Get	threadmisc.h	/^	T* Get() { return reinterpret_cast<T*>(pthread_getspecific(d_key)); }$/;"	f	class:TLS
+Get	threadmisc.h	/^	const T& Get() const {$/;"	f	struct:TLSDestroyableA
+Get	threadmisc.h	/^	const T* Get() const { return reinterpret_cast<const T*>(pthread_getspecific(d_key)); }$/;"	f	class:TLS
+NoCopy	threadmisc.h	/^		NoCopy() {}$/;"	f	class:NoCopy
+NoCopy	threadmisc.h	/^class NoCopy$/;"	c
+Ptr	threadmisc.h	/^	T* Ptr() {$/;"	f	struct:TLSDestroyableA
+Set	threadmisc.h	/^	void Set(const T* p) { pthread_setspecific(d_key, p); }$/;"	f	class:TLS
+THREADMISC_H	threadmisc.h	2;"	d
+TLS	threadmisc.h	/^	TLS(bool own = false) { pthread_key_create(&d_key, own ? &Destroy: 0); }$/;"	f	class:TLS
+TLS	threadmisc.h	/^class TLS : public NoCopy$/;"	c
+TLSDestroyableA	threadmisc.h	/^	TLSDestroyableA() $/;"	f	struct:TLSDestroyableA
+TLSDestroyableA	threadmisc.h	/^struct TLSDestroyableA$/;"	s
+d_data	threadmisc.h	/^	TLSDestroyableA<int> d_data;$/;"	m	class:testA
+d_key	threadmisc.h	/^	pthread_key_t d_key;$/;"	m	class:TLS
+data	threadmisc.h	/^	TLS<T> data;$/;"	m	struct:TLSDestroyableA
+operator ()	threadmisc.h	/^	T& operator() () { return Get(); }$/;"	f	struct:TLSDestroyableA
+operator ()	threadmisc.h	/^	const T& operator() () const {$/;"	f	struct:TLSDestroyableA
+testA	threadmisc.h	/^	testA() { printf("construting testA.\\n"); }$/;"	f	class:testA
+testA	threadmisc.h	/^class testA $/;"	c
+~TLS	threadmisc.h	/^	~TLS() { pthread_key_delete(d_key); }$/;"	f	class:TLS
+~TLSDestroyableA	threadmisc.h	/^	~TLSDestroyableA() {$/;"	f	struct:TLSDestroyableA
+~testA	threadmisc.h	/^	~testA() { printf("destructing testA.\\n");  }$/;"	f	class:testA
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/

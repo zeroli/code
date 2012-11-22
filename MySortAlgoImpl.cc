@@ -1,3 +1,4 @@
+#include <cstdio>
 #include <vector>
 #include <iterator>
 #include <algorithm>
@@ -166,7 +167,7 @@ void HeapSort(std::vector<int>&);
 // below i is starting from 0
 int parent(int i)
 {
-	return (int)floor((i+1)/2-1);
+	return i/2;
 }
 
 int left(int i)
